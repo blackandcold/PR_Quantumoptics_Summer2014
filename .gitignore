@@ -1,3 +1,12 @@
+
+.DS_Store
+# Latexian
+*.m~
+*.aux
+*.log
+*.synctex*
+*Latexian*
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
