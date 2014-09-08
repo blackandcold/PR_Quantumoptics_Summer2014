@@ -1,0 +1,38 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	1
+<table>
+3395RechtsOben	31	2	08.09.14 11:49
+geometry	0	0	633	383	active
+header	Frequenz [Hz][X]	Amplitude *2 in [mV][Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	3000	0.1
+1	3100	0.1
+2	3200	0.2
+3	3300	0.4
+4	3320	1.2
+5	3340	1.2
+6	3360	0.2
+7	3370	1.3
+8	3380	3.5
+9	3385	4.5
+10	3390	4.9
+11	3395	3.9
+12	3400	1
+13	3410	2.9
+14	3420	2.9
+15	3430	2.1
+16	3440	1.3
+17	3460	0.1
+18	3500	0.7
+</data>
+</table>
+<open>1</open>
