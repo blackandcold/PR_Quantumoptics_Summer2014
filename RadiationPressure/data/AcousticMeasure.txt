@@ -1,4 +1,10 @@
 Cantilever
 ==========
 
-Right lower cantilever. Acoustic resonance at about 650Hz
+Right lower cantilever. Acoustic resonance at about (680 \pm 5)Hz
+
+Middle upper cantilever. Acoustic resonance at about (2565 \pm 5)Hz
+
+Right upper cantilever. Acoustic resonance at about (3395 \pm 5)Hz
+
+Left upper cantilever. Acoustic resonance at about (1870 \pm 10)Hz
