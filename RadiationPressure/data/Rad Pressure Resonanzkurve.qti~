@@ -1,0 +1,57 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+RechtsOben_3395	30	2	09.09.2014 09:19:06
+geometry	0	0	635	437	
+header	Frequenz [Hz][X]	Amplitude [mV][Y]
+ColWidth	130	142	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	3000	0.1
+1	3100	0.15
+2	3200	0.2
+3	3300	0.5
+4	3320	0.7
+5	3340	1
+6	3360	2.9
+7	3370	4.2
+8	3380	6.5
+9	3385	8
+10	3390	9
+11	3395	9.5
+12	3400	9.15
+13	3405	8.3
+14	3410	7
+15	3420	4.4
+16	3430	3.2
+17	3450	2.2
+18	3470	1.6
+19	3500	1.15
+20	3600	0.7
+21	3700	0.45
+22	3800	0.2
+</data>
+</table>
+<table>
+RechtsUnten_680	30	4	09.09.14 09:53
+geometry	635	0	625	415	active
+header	Frequenz [Hz][X]	Amplitude [mV]	LaserCountSum	Phase [Hz]
+ColWidth	130	122	142	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+</data>
+</table>
+<open>1</open>
