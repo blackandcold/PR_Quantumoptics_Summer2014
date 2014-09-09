@@ -41,8 +41,8 @@ WindowLabel		2
 </table>
 <table>
 RechtsUnten_1870	30	5	09.09.14 09:53
-geometry	116	1	1230	424	
-header	Frequenz [Hz][X]	LaserCountSum [mV]	Amplitude [mV]	Phase [Hz]	Normalized Amplitude [1][Y]
+geometry	116	1	1230	424	active
+header	Frequenz [Hz][X]	LaserCountSum [mV]	Amplitude [mV]	Phase [Hz]	Normalized Amplitude [][Y]
 ColWidth	130	152	144	100	210	
 <com>
 <col nr="4">
@@ -80,7 +80,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 Grafik1	1	1	09.09.14 11:41
-geometry	762	51	553	483	active
+geometry	762	51	553	483	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -120,7 +120,7 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	RechtsUnten_1870_Frequenz [Hz]	RechtsUnten_1870_Normalized Amplitude [1]	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	RechtsUnten_1870_Frequenz [Hz]	RechtsUnten_1870_Normalized Amplitude []	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
 scale	0	0	0.25	0	6	5	0	0
 scale	1	0	0.25	0	6	5	0	0
 scale	2	1400	2300	0	10	5	0	0
