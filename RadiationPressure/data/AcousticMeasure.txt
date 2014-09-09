@@ -8,3 +8,10 @@ Middle upper cantilever. Acoustic resonance at about (2565 \pm 5)Hz
 Right upper cantilever. Acoustic resonance at about (3395 \pm 5)Hz
 
 Left upper cantilever. Acoustic resonance at about (1870 \pm 10)Hz
+
+
+Plättchen mit mehreren Cantilever, grüner Laser in Interferometeraufbau, quadrantenmessung, frequenz von cantilever, intensität in mV, mit PS3 cam auf korrekten cantilever stellen, akustisch Frequenzen absuchen um Interferenz aus zu löschen, 4 cantilever vermessen auf resonanz, 2 auf Resonanzkurve, einen auf Kurve + phase + normalisierte amplitude, 
+
+bestimmung volt/meter um auslenkung in meter bestimmen zu können. justieren von IR und grün. IR auf frequenz von cantilever resonanz, messung von auslenkung. bestimmung von federkonstante k des cantilevers. dazu benötigt - halbwertsbreite gütefaktor amplitude in m Licht druck/kraft. 
+
+Messung V/m: 184mV Basisintensität

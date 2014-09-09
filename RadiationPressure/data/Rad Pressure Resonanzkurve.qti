@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	3
+<windows>	4
 <table>
 RechtsOben_3395	30	2	09.09.2014 09:19:06
-geometry	0	518	635	437	minimized	
+geometry	0	403	635	437	minimized	
 header	Frequenz [Hz][X]	Amplitude [mV][Y]
 ColWidth	130	142	
 <com>
@@ -41,7 +41,7 @@ WindowLabel		2
 </table>
 <table>
 RechtsUnten_1870	30	5	09.09.14 09:53
-geometry	116	1	1230	424	active
+geometry	196	403	1230	424	minimized	
 header	Frequenz [Hz][X]	LaserCountSum [mV]	Amplitude [mV]	Phase [Hz]	Normalized Amplitude [][Y]
 ColWidth	130	152	144	100	210	
 <com>
@@ -78,9 +78,39 @@ WindowLabel		2
 20	2200	220	1.8	5810	0.008181818181818
 </data>
 </table>
+<table>
+Sensitivity	31	4	09.09.14 15:32
+geometry	108	-6	732	464	
+header	Abstand [mm][X]	DC Output Quadropol [mV]	Intensität Gesamt [mV]	1[Y]
+ColWidth	132	219	194	132	
+<com>
+<col nr="3">
+col("DC Output Quadropol [mV]")/col("Intensität Gesamt [mV]")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	9	-2880	3180	-0.9056603773585
+1	8	-2880	3300	-0.8727272727273
+2	7	-2040	3300	-0.6181818181818
+3	6.75	-1160	3280	-0.3536585365854
+4	6.5	200	3220	0.06211180124224
+5	6.25	1400	3320	0.421686746988
+6	6	2280	3320	0.6867469879518
+7	5.5	3200	3380	0.9467455621302
+8	5	3360	3340	1.005988023952
+9	4	3320	3300	1.006060606061
+10	3	2800	2700	1.037037037037
+11	2	760	700	1.085714285714
+</data>
+</table>
 <multiLayer>
-Grafik1	1	1	09.09.14 11:41
-geometry	762	51	553	483	
+Grafik1	1	1	09.09.14 17:14
+geometry	793	-11	539	461	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -89,8 +119,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	535	420
-<PageGeometry>0.00917431	0.0114943	0.981651	0.965517</PageGeometry>
+ggeometry	5	5	521	398
+<PageGeometry>0.0094162	0.0121065	0.981168	0.96368</PageGeometry>
 PlotTitle	Titel	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -107,7 +137,7 @@ AxesTitleColors	#000000	#000000	#000000	#000000
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Sans	12	75	0	0	0
+TitleFont	Sans	11	75	0	0	0
 ScaleFont0	Sans	9	75	0	0	0
 ScaleFont1	Sans	9	75	0	0	0
 ScaleFont2	Sans	9	75	0	0	0
@@ -120,11 +150,32 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	RechtsUnten_1870_Frequenz [Hz]	RechtsUnten_1870_Normalized Amplitude []	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
-scale	0	0	0.25	0	6	5	0	0
-scale	1	0	0.25	0	6	5	0	0
-scale	2	1400	2300	0	10	5	0	0
-scale	3	1400	2300	0	10	5	0	0
+curve	Sensitivity_Abstand [mm]	Sensitivity_1	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	11	1
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>5.5	7.5</Range>
+<Points>100</Points>
+<Constant>A	-1.09860879651037</Constant>
+<Constant>B	7.14876416848988</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-1.5	1.5	0	7	5	0	0
+scale	1	-1	1.5	0	6	5	0	0
+scale	2	1	10	0	10	5	0	0
+scale	3	1	10	0	10	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -143,15 +194,16 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>1422.5563909774</x>
-<y>0.24163879598662</y>
-<right>1645.86466165414</right>
-<bottom>0.217391304347826</bottom>
+<x>1.2255639097744</x>
+<y>1.4163879598662</y>
+<right>3.45864661654135</right>
+<bottom>1.17391304347826</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
 <Text>
 \l(1)%(1)
+\l(2)%(2)
 </Text>
 <Font>Sans	9	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
@@ -166,3 +218,108 @@ EnabledTickLabels	1	1	1	1
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 <open>1</open>
+<log>
+[09.09.14 16:33	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Sensitivity_1, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 3,0000000000000e+00 bis x = 1,0000000000000e+01
+B (y-intercept) = -1,2965079058397e-01 +/- 2,1522852368252e-02
+A (slope) = -5,0997493690732e-02 +/- 3,3924767846735e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,0683284236710e-04
+R^2 = 0,9616983500041
+Angepasstes R^2 = 0,9521229375051
+RMSE (Standardabweichung) = 0,02463397739642
+RSS (Summe der quadrierten Restwerte) = 0,005461495581304
+---------------------------------------------------------------------------------------
+[09.09.14 16:36	Diagramm: ''Grafik2'']
+Lineare Regression von Datensatz: Sensitivity_DC Output Quadropol [mV], unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 2,5000000000000e+00 bis x = 1,0000000000000e+01
+B (y-intercept) = -2,3412303664921e+01 +/- 1,0176523609158e+01
+A (slope) = -6,5890052356021e+00 +/- 1,6636688956154e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,7621623036649e+02
+R^2 = 0,6106794137167
+Angepasstes R^2 = 0,5241637278759
+RMSE (Standardabweichung) = 13,27464614845
+RSS (Summe der quadrierten Restwerte) = 1.762,162303665
+---------------------------------------------------------------------------------------
+[09.09.14 16:36	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Sensitivity_DC Output Quadropol [mV], unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 3,0000000000000e+00 bis x = 7,0000000000000e+00
+B (y-intercept) = -1,4543859649123e+01 +/- 3,5766451225354e+00
+A (slope) = -9,6791979949875e+00 +/- 7,1938702190421e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,4527986633250e+00
+R^2 = 0,9679197994987
+Angepasstes R^2 = 0,9550877192982
+RMSE (Standardabweichung) = 2,540235946389
+RSS (Summe der quadrierten Restwerte) = 38,71679197995
+---------------------------------------------------------------------------------------
+[09.09.14 17:12	Diagramm: ''Grafik2'']
+Lineare Regression von Datensatz: Sensitivity_1, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 9,0000000000000e+00 bis x = 2,0000000000000e+00
+B (y-intercept) = 2,2716837310406e+00 +/- 3,6793079718709e-01
+A (slope) = -3,4432379313427e-01 +/- 6,0684241606150e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,6341436233204e-01
+R^2 = 0,7630025059277
+Angepasstes R^2 = 0,7103363961339
+RMSE (Standardabweichung) = 0,4042454233903
+RSS (Summe der quadrierten Restwerte) = 1,63414362332
+---------------------------------------------------------------------------------------
+[09.09.14 17:13	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Sensitivity_1, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 7,0000000000000e+00 bis x = 5,5000000000000e+00
+A = -1,0986087965104e+00 +/- 1,1567220726118e-01
+B = 7,1487641684899e+00 +/- 7,3480688169380e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9512586801058e-02
+R^2 = 0,9575391735904
+Angepasstes R^2 = 0,929231955984
+RMSE (Standardabweichung) = 0,1396874611447
+RSS (Summe der quadrierten Restwerte) = 0,07805034720423
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+[09.09.14 17:13	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Sensitivity_1, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 7,0000000000000e+00 bis x = 5,5000000000000e+00
+A = -1,0986087974828e+00 +/- 1,1567220696724e-01
+B = 7,1487641746484e+00 +/- 7,3480687896316e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9512586801058e-02
+R^2 = 0,9575391735904
+Angepasstes R^2 = 0,929231955984
+RMSE (Standardabweichung) = 0,1396874611447
+RSS (Summe der quadrierten Restwerte) = 0,07805034720423
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[09.09.14 17:14	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Sensitivity_1, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 7,0000000000000e+00 bis x = 5,5000000000000e+00
+A = -1,0986087965104e+00 +/- 1,1567220726118e-01
+B = 7,1487641684899e+00 +/- 7,3480688169380e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9512586801058e-02
+R^2 = 0,9575391735904
+Angepasstes R^2 = 0,929231955984
+RMSE (Standardabweichung) = 0,1396874611447
+RSS (Summe der quadrierten Restwerte) = 0,07805034720423
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+</log>
