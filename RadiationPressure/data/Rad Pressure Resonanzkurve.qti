@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	2
 <table>
 RechtsOben_3395	30	2	09.09.2014 09:19:06
-geometry	0	0	635	437	active
+geometry	0	0	635	437	
 header	Frequenz [Hz][X]	Amplitude [mV][Y]
 ColWidth	130	142	
 <com>
@@ -40,10 +40,10 @@ WindowLabel		2
 </data>
 </table>
 <table>
-RechtsUnten_680	30	4	09.09.14 09:53
-geometry	635	0	625	415	
-header	Frequenz [Hz][X]	Amplitude [mV]	LaserCountSum	Phase [Hz]
-ColWidth	130	122	142	100	
+RechtsUnten_1870	30	4	09.09.14 09:53
+geometry	635	0	625	415	active
+header	Frequenz [Hz][X]	LaserCountSum [mV]	Amplitude [mV]	Phase [Hz]
+ColWidth	130	152	144	100	
 <com>
 </com>
 ColType	0;0/13	0;0/13	0;0/13	0;0/13
@@ -52,6 +52,27 @@ HiddenColumn	0	0	0	0
 Comments					
 WindowLabel		2
 <data>
+0	1500	104	1.8	15600
+1	1600	92	2.1	2750
+2	1700	100	3.24	7580
+3	1750	104	4.5	3250
+4	1800	104	6.1	2050
+5	1820	100	7.1	1810
+6	1840	81	8.8	2750
+7	1850	290	37.6	2430
+8	1860	290	52	2140
+9	1865	238	47.8	1980
+10	1870	240	55	1840
+11	1875	248	56.6	17900
+12	1880	236	49.4	10400
+13	1890	236	35.2	6250
+14	1900	228	26	4810
+15	1920	224	17.3	3380
+16	1940	224	12	2690
+17	1970	224	7.7	2170
+18	2000	222	6.1	19200
+19	2100	220	3.1	2780
+20	2200	220	1.8	5810
 </data>
 </table>
 <open>1</open>
