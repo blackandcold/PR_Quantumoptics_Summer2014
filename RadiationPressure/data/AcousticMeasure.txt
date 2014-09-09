@@ -15,3 +15,5 @@ Plättchen mit mehreren Cantilever, grüner Laser in Interferometeraufbau, quadr
 bestimmung volt/meter um auslenkung in meter bestimmen zu können. justieren von IR und grün. IR auf frequenz von cantilever resonanz, messung von auslenkung. bestimmung von federkonstante k des cantilevers. dazu benötigt - halbwertsbreite gütefaktor amplitude in m Licht druck/kraft. 
 
 Messung V/m: 184mV Basisintensität
+
+Laserweg Grün: 57,3cm
