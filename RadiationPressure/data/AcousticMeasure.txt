@@ -17,3 +17,21 @@ bestimmung volt/meter um auslenkung in meter bestimmen zu können. justieren von
 Messung V/m: 184mV Basisintensität
 
 Laserweg Grün: 57,3cm
+
+Sensitivität Fit
+[09.09.14 17:14	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Sensitivity_1, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 7,0000000000000e+00 bis x = 5,5000000000000e+00
+A = -1,0986087965104e+00 +/- 1,1567220726118e-01
+B = 7,1487641684899e+00 +/- 7,3480688169380e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9512586801058e-02
+R^2 = 0,9575391735904
+Angepasstes R^2 = 0,929231955984
+RMSE (Standardabweichung) = 0,1396874611447
+RSS (Summe der quadrierten Restwerte) = 0,07805034720423
+
+
+Halbwertsbreite

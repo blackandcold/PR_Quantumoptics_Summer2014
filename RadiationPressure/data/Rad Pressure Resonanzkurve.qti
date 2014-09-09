@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	4
+<windows>	5
 <table>
 RechtsOben_3395	30	2	09.09.2014 09:19:06
-geometry	0	403	635	437	minimized	
+geometry	0	0	635	437	
 header	Frequenz [Hz][X]	Amplitude [mV][Y]
 ColWidth	130	142	
 <com>
@@ -41,7 +41,7 @@ WindowLabel		2
 </table>
 <table>
 RechtsUnten_1870	30	5	09.09.14 09:53
-geometry	196	403	1230	424	minimized	
+geometry	0	403	1230	424	minimized	
 header	Frequenz [Hz][X]	LaserCountSum [mV]	Amplitude [mV]	Phase [Hz]	Normalized Amplitude [][Y]
 ColWidth	130	152	144	100	210	
 <com>
@@ -80,7 +80,7 @@ WindowLabel		2
 </table>
 <table>
 Sensitivity	31	4	09.09.14 15:32
-geometry	108	-6	732	464	
+geometry	196	403	732	464	minimized	
 header	Abstand [mm][X]	DC Output Quadropol [mV]	Intensität Gesamt [mV]	1[Y]
 ColWidth	132	219	194	132	
 <com>
@@ -109,8 +109,8 @@ WindowLabel		2
 </data>
 </table>
 <multiLayer>
-Grafik1	1	1	09.09.14 17:14
-geometry	793	-11	539	461	active
+MessungQuadrantensensor	1	1	09.09.14 17:14
+geometry	392	403	539	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -198,6 +198,118 @@ EnabledTickLabels	1	1	1	1
 <y>1.4163879598662</y>
 <right>3.45864661654135</right>
 <bottom>1.17391304347826</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Grafik1	1	1	09.09.14 17:19
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	13	5	1321	392
+<PageGeometry>0.00964392	0.012285	0.97997	0.963145</PageGeometry>
+PlotTitle	Lorentzkurve und Halbwertsbreite	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Frequenz [Hz]	Amplitude [mV]		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	RechtsOben_3395_Frequenz [Hz]	RechtsOben_3395_Amplitude [mV]	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LorentzFit1</Title>
+<Expression>y0+2*A/PI*w/(4*(x-xc)^2+w^2)</Expression>
+<Variable>x</Variable>
+<Range>3000	3800</Range>
+<Points>100</Points>
+<Constant>A	659.651664083464</Constant>
+<Constant>w	45.245695441525</Constant>
+<Constant>xc	3395.90237672105</Constant>
+<Constant>y0	0.27631844249781</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	10	0	6	5	0	0
+scale	1	0	10	0	6	5	0	0
+scale	2	2800	4000	0	7	5	0	0
+scale	3	2800	4000	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<line>	3341.34846118242	6.68793371073777	3434.25774877651	6.69512417823229	1	#000000	SolidLine	0	0	4	45	1	1</line>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>2830.0751879699</x>
+<y>9.6655518394649</y>
+<right>3127.81954887218</right>
+<bottom>8.69565217391304</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -320,6 +432,25 @@ RMSE (Standardabweichung) = 0,1396874611447
 RSS (Summe der quadrierten Restwerte) = 0,07805034720423
 ---------------------------------------------------------------------------------------
 Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+[09.09.14 17:21	Diagramm: ''Grafik1'']
+Lorentz-Fit von Datensatz: RechtsOben_3395_Amplitude [mV], unter Verwendung der Funktion: y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+03 bis x = 3,8000000000000e+03
+A (Fläche) = 6,5965166408346e+02 +/- 2,5841291169865e+01
+xc (Mitte) = 3,3959023767210e+03 +/- 4,5864472339495e-01
+w (Breite) = 4,5245695441525e+01 +/- 1,8399146729176e+00
+y0 (Offset) = 2,7631844249781e-01 +/- 1,0125461636892e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 8,7613025338677e-02
+R^2 = 0,9935990938575
+Angepasstes R^2 = 0,9921766702703
+RMSE (Standardabweichung) = 0,2959949751916
+RSS (Summe der quadrierten Restwerte) = 1,664647481435
+---------------------------------------------------------------------------------------
+Iterationen = 8
 Status = success
 ---------------------------------------------------------------------------------------
 </log>
