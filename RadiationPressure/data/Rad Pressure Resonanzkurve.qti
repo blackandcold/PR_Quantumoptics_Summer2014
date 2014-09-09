@@ -41,8 +41,8 @@ WindowLabel		2
 </table>
 <table>
 RechtsUnten_1870	30	4	09.09.14 09:53
-geometry	635	0	625	415	active
-header	Frequenz [Hz][X]	LaserCountSum [mV]	Amplitude [mV]	Phase [Hz]
+geometry	635	0	622	425	active
+header	Frequenz [Hz][X]	LaserCountSum [mV]	Amplitude [mV][Y]	Phase [Hz]
 ColWidth	130	152	144	100	
 <com>
 </com>
