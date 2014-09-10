@@ -34,4 +34,22 @@ RMSE (Standardabweichung) = 0,1396874611447
 RSS (Summe der quadrierten Restwerte) = 0,07805034720423
 
 
-Halbwertsbreite
+C = 7,2 \pm 0.8 V/mm
+
+Halbwertsbreite 
+
+
+
+Messung Photonendruck
+=====================
+
+Roter Laser 1871Hz
+0.45 Powermeter falsch rein gehalten (Messung 1)
+1.45 \pm 0.05 mW Roter Laser (Messung 2)
+1.45 \pm 0.05 mW (Messung 3)
+
+----
+
+Grün 1870Hz, (3.0 \pm 0.4) mV
+Intensität 176 \pm 2mV
+Hintergrundrauschen 300$\mu$V
