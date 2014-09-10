@@ -14,30 +14,32 @@ Plättchen mit mehreren Cantilever, grüner Laser in Interferometeraufbau, quadr
 
 bestimmung volt/meter um auslenkung in meter bestimmen zu können. justieren von IR und grün. IR auf frequenz von cantilever resonanz, messung von auslenkung. bestimmung von federkonstante k des cantilevers. dazu benötigt - halbwertsbreite gütefaktor amplitude in m Licht druck/kraft. 
 
+__Ab hier rechts Unten__
+
+Länge: 1mm
 
 ### Sensitivität Fit ###
-> [09.09.14 17:14	Diagramm: ''Grafik1'']
-> Nichtlinearer Fit von Datensatz: Sensitivity_1, unter Verwendung der Funktion: A*x+B
-> Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
-> Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
-> Von x = 7,0000000000000e+00 bis x = 5,5000000000000e+00
-> A = -1,0986087965104e+00 +/- 1,1567220726118e-01
-> B = 7,1487641684899e+00 +/- 7,3480688169380e-01
+> [10.09.14 14:26	Diagramm: ''Grafik2'']
+Lineare Regression von Datensatz: Sensitivity_Normalized Amplitude [], unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 7,0000000000000e+00 bis x = 6,0000000000000e+00
+B (y-intercept) = 8,8412685654685e+00 +/- 3,8812466926767e-01
+A (slope) = -1,3540811583362e+00 +/- 5,9623352494584e-02
 > 
-> Chi^2/doF = 1,9512586801058e-02
-> R^2 = 0,9575391735904
-> Angepasstes R^2 = 0,929231955984
-> RMSE (Standardabweichung) = 0,1396874611447
-> RSS (Summe der quadrierten Restwerte) = 0,07805034720423
+Chi^2/doF = 2,2218401016834e-03
+R^2 = 0,9942170974262
+Angepasstes R^2 = 0,9884341948523
+RMSE (Standardabweichung) = 0,04713639890449
+RSS (Summe der quadrierten Restwerte) = 0,00666552030505
 
 
 C = (7,2 \pm 0.8)1/mm
 Laserweg Grün: (57,3 \pm 2)cm
 Messung V/m: 184mV Basisintensität Grün
 
-Halbwertsbreite = (34 \pm 5)Hz 
+Halbwertsbreite = (59 \pm 2)Hz 
 
-
+Q-Faktor: 31.694
 
 ## Messung Photonendruck ##
 
@@ -115,4 +117,12 @@ Int. 162mV
 500 \muV
 Int. 154mV
 
-asdf
+
+# Zusatzfrage #
+
+
+### TO DO ###
+- Fourierzerlegung (wir pulsen in square in etwa... die formel gilt für sinus... sollte 1 faktor sein)
+- bonusfrage is diskutiert: interferenz -> intensitätsmessung; konnte nicht gemessen werden
+- optional: resonanzkurve von der laser-angeregten messung
+- Fehlerrechnung

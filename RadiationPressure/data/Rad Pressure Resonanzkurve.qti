@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	5
+<windows>	6
 <table>
 RechtsOben_3395	30	2	09.09.2014 09:19:06
-geometry	0	518	635	437	minimized	
+geometry	392	403	635	437	minimized	
 header	Frequenz [Hz][X]	Amplitude [mV][Y]
 ColWidth	130	142	
 <com>
@@ -41,12 +41,12 @@ WindowLabel		2
 </table>
 <table>
 RechtsUnten_1870	30	5	09.09.14 09:53
-geometry	196	518	681	272	minimized	
+geometry	189	13	878	362	active
 header	Frequenz [Hz][X]	LaserCountSum [mV]	Amplitude [mV]	Phase [Hz]	Normalized Amplitude [][Y]
 ColWidth	130	152	144	100	210	
 <com>
 <col nr="4">
-col("Amplitude [mV]")/col("LaserCountSum [mV]")
+col("Amplitude [mV]")/2/col("LaserCountSum [mV]")
 </col>
 </com>
 ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
@@ -55,32 +55,32 @@ HiddenColumn	0	0	0	0	0
 Comments						
 WindowLabel		2
 <data>
-0	1500	104	1.8	15600	0.01730769230769
-1	1600	92	2.1	2750	0.02282608695652
-2	1700	100	3.24	7580	0.0324
-3	1750	104	4.5	3250	0.04326923076923
-4	1800	104	6.1	2050	0.05865384615385
-5	1820	100	7.1	1810	0.071
-6	1840	81	8.8	2750	0.1086419753086
-7	1850	290	37.6	2430	0.1296551724138
-8	1860	290	52	2140	0.1793103448276
-9	1865	238	47.8	1980	0.2008403361345
-10	1870	240	55	1840	0.2291666666667
-11	1875	248	56.6	17900	0.2282258064516
-12	1880	236	49.4	10400	0.2093220338983
-13	1890	236	35.2	6250	0.1491525423729
-14	1900	228	26	4810	0.1140350877193
-15	1920	224	17.3	3380	0.07723214285714
-16	1940	224	12	2690	0.05357142857143
-17	1970	224	7.7	2170	0.034375
-18	2000	222	6.1	19200	0.02747747747748
-19	2100	220	3.1	2780	0.01409090909091
-20	2200	220	1.8	5810	0.008181818181818
+0	1500	104	1.8	15600	0.008653846153846
+1	1600	92	2.1	2750	0.01141304347826
+2	1700	100	3.24	7580	0.0162
+3	1750	104	4.5	3250	0.02163461538462
+4	1800	104	6.1	2050	0.02932692307692
+5	1820	100	7.1	1810	0.0355
+6	1840	81	8.8	2750	0.05432098765432
+7	1850	290	37.6	2430	0.0648275862069
+8	1860	290	52	2140	0.08965517241379
+9	1865	238	47.8	1980	0.1004201680672
+10	1870	240	55	1840	0.1145833333333
+11	1875	248	56.6	17900	0.1141129032258
+12	1880	236	49.4	10400	0.1046610169492
+13	1890	236	35.2	6250	0.07457627118644
+14	1900	228	26	4810	0.05701754385965
+15	1920	224	17.3	3380	0.03861607142857
+16	1940	224	12	2690	0.02678571428571
+17	1970	224	7.7	2170	0.0171875
+18	2000	222	6.1	19200	0.01373873873874
+19	2100	220	3.1	2780	0.007045454545455
+20	2200	220	1.8	5810	0.004090909090909
 </data>
 </table>
 <table>
 Sensitivity	31	4	09.09.14 15:32
-geometry	14	21	800	464	
+geometry	196	403	804	292	minimized	
 header	Abstand [mm][X]	DC Output Quadropol [mV]	Intensität Gesamt [mV]	Normalized Amplitude [][Y]
 ColWidth	132	219	194	201	
 <com>
@@ -109,117 +109,8 @@ WindowLabel		2
 </data>
 </table>
 <multiLayer>
-MessungQuadrantensensor	1	1	09.09.14 17:14
-geometry	823	27	541	515	active
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	4	522	453
-<PageGeometry>0.00938086	0.00856531	0.979362	0.970021</PageGeometry>
-PlotTitle	Photosensitivity	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	Spacing [mm]	normalized amplitude []		 	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Sans	12	75	0	0	0
-ScaleFont0	Sans	10	75	0	0	0
-ScaleFont1	Sans	10	75	0	0	0
-ScaleFont2	Sans	10	75	0	0	0
-ScaleFont3	Sans	10	75	0	0	0
-AxisFont0	Sans	10	50	0	0	0
-AxisFont1	Sans	10	50	0	0	0
-AxisFont2	Sans	10	50	0	0	0
-AxisFont3	Sans	10	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	Sensitivity_Abstand [mm]	Sensitivity_Normalized Amplitude []	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	11	1
-<Function>
-<Type>0</Type>
-<Title>NichtlinearFit1</Title>
-<Expression>A*x+B</Expression>
-<Variable>x</Variable>
-<Range>5.5	7.5</Range>
-<Points>100</Points>
-<Constant>A	-1.09860879651037</Constant>
-<Constant>B	7.14876416848988</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#ff0000</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-scale	0	-1.5	1.5	0	7	5	0	0
-scale	1	-1	1.5	0	6	5	0	0
-scale	2	1	10	0	10	5	0	0
-scale	3	1	10	0	10	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>1.4511278195489</x>
-<y>0.3561872909699</y>
-<right>3.58485639686684</right>
-<bottom>1.08904109589041</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>Sans	10	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
 Grafik1	1	1	10.09.14 09:22
-geometry	392	518	683	542	minimized	
+geometry	0	403	683	542	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -283,10 +174,10 @@ curve	RechtsUnten_1870_Frequenz [Hz]	RechtsUnten_1870_Normalized Amplitude []	1	
 <CurveType>0</CurveType>
 <Visible>1</Visible>
 </Function>
-scale	0	0	0.25	0	6	5	0	0
-scale	1	0	0.25	0	6	5	0	0
-scale	2	1400	2300	0	6	5	0	0
-scale	3	1400	2300	0	6	5	0	0
+scale	0	0.145316804407713	0.175619834710744	0	4	5	0	0
+scale	1	0.145316804407713	0.175619834710744	0	4	5	0	0
+scale	2	1832	1934.85714285714	0	6	5	0	0
+scale	3	1832	1934.85714285714	0	6	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -308,8 +199,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>1430.4054054054</x>
 <y>0.22408026755853</y>
-<right>1760.30405405405</right>
-<bottom>0.189799331103679</bottom>
+<right>1586.85714285714</right>
+<bottom>0.223140495867769</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -318,6 +209,227 @@ EnabledTickLabels	1	1	1	1
 \l(2)%(2)
 </Text>
 <Font>Sans	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Resonanzkurve	1	1	10.09.14 14:08
+geometry	588	403	615	465	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	597	402
+<PageGeometry>0.00823723	0.0119904	0.983526	0.964029</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	RechtsUnten_1870_Frequenz [Hz]	RechtsUnten_1870_Normalized Amplitude []	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LorentzFit1</Title>
+<Expression>y0+2*A/PI*w/(4*(x-xc)^2+w^2)</Expression>
+<Variable>x</Variable>
+<Range>1500	2200</Range>
+<Points>100</Points>
+<Constant>A	8.21878947659115</Constant>
+<Constant>w	52.2966613206634</Constant>
+<Constant>xc	1872.48393153797</Constant>
+<Constant>y0	0.0113285852241623</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	0.12	0	7	5	0	0
+scale	1	0	0.12	0	7	5	0	0
+scale	2	1400	2300	0	6	5	0	0
+scale	3	1400	2300	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<line>	1842.57666353827	0.0555978601673353	1903.2994865828	0.0555978601673353	1	#000000	SolidLine	0	0	4	45	1	1</line>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1422.5563909774</x>
+<y>0.11598662207358</y>
+<right>1645.86466165414</right>
+<bottom>0.104347826086957</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Slopeofsensitivityofthesensor	1	1	10.09.14 14:26
+geometry	784	403	539	416	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	521	353
+<PageGeometry>0.0094162	0.013587	0.981168	0.959239</PageGeometry>
+PlotTitle	Sensitivity slope fit	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Distance sensore moved [mm]	Normalized DC value [1]		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	10	75	0	0	0
+ScaleFont0	Sans	8	75	0	0	0
+ScaleFont1	Sans	8	75	0	0	0
+ScaleFont2	Sans	8	75	0	0	0
+ScaleFont3	Sans	8	75	0	0	0
+AxisFont0	Sans	8	50	0	0	0
+AxisFont1	Sans	8	50	0	0	0
+AxisFont2	Sans	8	50	0	0	0
+AxisFont3	Sans	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Sensitivity_Abstand [mm]	Sensitivity_Normalized Amplitude []	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	2	6	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>6	7</Range>
+<Points>2</Points>
+<Constant>A	-1.35408115833624</Constant>
+<Constant>B	8.84126856546853</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-0.8	0.8	0	9	5	0	0
+scale	1	-0.8	0.8	0	9	5	0	0
+scale	2	5.8	7.2	0	8	5	0	0
+scale	3	5.8	7.2	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>5.8350877192982</x>
+<y>0.74648829431438</y>
+<right>6.18245614035088</right>
+<bottom>0.591304347826087</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	8	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -472,5 +584,77 @@ RSS (Summe der quadrierten Restwerte) = 0,001402588863333
 ---------------------------------------------------------------------------------------
 Iterationen = 9
 Status = success
+---------------------------------------------------------------------------------------
+
+[10.09.14 14:02	Diagramm: ''Grafik3'']
+Lineare Regression von Datensatz: Sensitivity_Normalized Amplitude [], unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 9,0000000000000e+00 bis x = 2,0000000000000e+00
+B (y-intercept) = 2,2716837310406e+00 +/- 3,6793079718709e-01
+A (slope) = -3,4432379313427e-01 +/- 6,0684241606150e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,6341436233204e-01
+R^2 = 0,7630025059277
+Angepasstes R^2 = 0,7103363961339
+RMSE (Standardabweichung) = 0,4042454233903
+RSS (Summe der quadrierten Restwerte) = 1,63414362332
+---------------------------------------------------------------------------------------
+[10.09.14 14:03	Diagramm: ''Grafik2'']
+Lineare Regression von Datensatz: Sensitivity_Normalized Amplitude [], unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 7,0000000000000e+00 bis x = 5,5000000000000e+00
+B (y-intercept) = 3,5743820855229e+00 +/- 3,6740344034497e-01
+A (slope) = -5,4930439845697e-01 +/- 5,7836103604768e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,8781467002646e-03
+R^2 = 0,9575391735904
+Angepasstes R^2 = 0,929231955984
+RMSE (Standardabweichung) = 0,06984373057236
+RSS (Summe der quadrierten Restwerte) = 0,01951258680106
+---------------------------------------------------------------------------------------
+[10.09.14 14:04	Diagramm: ''Grafik2'']
+Lineare Regression von Datensatz: Sensitivity_Normalized Amplitude [], unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 7,0000000000000e+00 bis x = 6,0000000000000e+00
+B (y-intercept) = 4,4206342827343e+00 +/- 1,9406233463383e-01
+A (slope) = -6,7704057916812e-01 +/- 2,9811676247292e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,5546002542085e-04
+R^2 = 0,9942170974262
+Angepasstes R^2 = 0,9884341948523
+RMSE (Standardabweichung) = 0,02356819945225
+RSS (Summe der quadrierten Restwerte) = 0,001666380076263
+---------------------------------------------------------------------------------------
+[10.09.14 14:09	Diagramm: ''Resonanzkurve'']
+Lorentz-Fit von Datensatz: RechtsUnten_1870_Normalized Amplitude [], unter Verwendung der Funktion: y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,5000000000000e+03 bis x = 2,2000000000000e+03
+A (Fläche) = 8,2187894765911e+00 +/- 4,9036359532951e-01
+xc (Mitte) = 1,8724839315380e+03 +/- 8,1614990533626e-01
+w (Breite) = 5,2296661320663e+01 +/- 3,1017584832013e+00
+y0 (Offset) = 1,1328585224162e-02 +/- 1,6654551221547e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,0626306813744e-05
+R^2 = 0,987897251172
+Angepasstes R^2 = 0,984871563965
+RMSE (Standardabweichung) = 0,004541619404325
+RSS (Summe der quadrierten Restwerte) = 0,0003506472158337
+---------------------------------------------------------------------------------------
+Iterationen = 9
+Status = success
+---------------------------------------------------------------------------------------
+[10.09.14 14:26	Diagramm: ''Grafik2'']
+Lineare Regression von Datensatz: Sensitivity_Normalized Amplitude [], unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 7,0000000000000e+00 bis x = 6,0000000000000e+00
+B (y-intercept) = 8,8412685654685e+00 +/- 3,8812466926767e-01
+A (slope) = -1,3540811583362e+00 +/- 5,9623352494584e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,2218401016834e-03
+R^2 = 0,9942170974262
+Angepasstes R^2 = 0,9884341948523
+RMSE (Standardabweichung) = 0,04713639890449
+RSS (Summe der quadrierten Restwerte) = 0,00666552030505
 ---------------------------------------------------------------------------------------
 </log>
