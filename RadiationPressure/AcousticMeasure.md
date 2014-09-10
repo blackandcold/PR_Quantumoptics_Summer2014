@@ -1,5 +1,3 @@
-http://th.physik.uni-frankfurt.de/~luedde/Lecture/Mechanik/Intranet/Skript/Kap3/node6.html
-
 # Cantilever #
 
 
