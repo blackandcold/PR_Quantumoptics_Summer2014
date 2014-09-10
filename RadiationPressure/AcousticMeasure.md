@@ -90,6 +90,8 @@ Intensität ges. 252 \pm 5mV
 400 \muV => Fast nur rauschen, kaum sinus form
 Intensität 178mV
 
+---
+
 + Rot
 1857Hz
 
@@ -97,12 +99,16 @@ Intensität 178mV
 1.64mV
 Intensität 164mV
 
+---
+
 + Rot
 1894Hz
 
 + Grün
 1.52mV
 Int. 162mV
+
+---
 
 + Rot 
 1959Hz
