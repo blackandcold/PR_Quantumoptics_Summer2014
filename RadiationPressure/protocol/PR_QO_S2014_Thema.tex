@@ -1,0 +1,110 @@
+% -*- TeX:de -*-
+\NeedsTeXFormat{LaTeX2e}
+\documentclass[12pt,a4paper]{article}
+\usepackage[english]{babel} % german text
+\usepackage[DIV12]{typearea} % size of printable area
+\usepackage[T1]{fontenc} % font encoding
+%\usepackage[latin1]{inputenc} % most likely on Windows
+\usepackage[utf8]{inputenc} % probably on Linux
+\usepackage{multicol}
+% PLOTTING
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{url}
+\usepackage{graphicx} % to include images
+\usepackage{tikz}
+\usepackage{subfigure} % for creating subfigures
+\usepackage{amsmath} % a bunch of symbols
+\usepackage{amssymb} % even more symbols
+\usepackage{booktabs} % pretty tables
+\usepackage{makecell} % multi row table heading
+% a floating environment for circuits
+\usepackage{float}
+\usepackage{caption}
+
+% Title Page command
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+%\newfloat{circuit}{tbph}{circuits}
+%\floatname{circuit}{Schaltplan}
+% a floating environment for diagrams
+%\newfloat{diagram}{tbph}{diagrams}
+%\floatname{diagram}{Diagramm}
+\pgfplotsset{compat=1.8}
+\selectlanguage{english} % use german
+\begin{document}
+%%%%%%% DECKBLATT %%%%%%%
+\input{title.tex}
+%%%%%%% DECKBLATT ENDE %%%%%%%
+\pagebreak
+\setlength{\columnsep}{20pt}
+\begin{multicols}{2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure}[H]
+% \centering
+% \includegraphics[scale=0.35]{./data/beugung.png}
+% \caption{Beugungsmuster Einzelspalt (echtes Foto; schwarz durch weiÃ ersetzt)}
+% \label{fig:beugungsmuster}
+%\end{figure}
+%\begin{figure}[H]
+% \centering
+% \pgfplotstabletypeset[
+% columns={abstand, n},
+% col sep=&,
+% columns/abstand/.style={precision=2, zerofill, column name=\makecell{$Abstand$\\$(\pm 0.05)[mm]$} },
+% columns/n/.style={column name=\makecell{$n$\\$(Ordnung)$}, precision=0},
+% every head row/.style={before row=\hline,after row=\hline\hline},
+% every last row/.style={after row=\hline},
+% every first column/.style={column type/.add={|}{} },
+% every last column/.style={column type/.add={}{|} }
+% ]{
+% abstand & n
+% 12.9 & 1
+% 24.45 & 2
+% 37.40 & 3
+% 49.35& 4
+% 62.45 & 5
+% 74.45 & 6
+% 87.45 & 7
+% 100.25 & 8
+%
+% }
+% \caption{Messwerte Einzelspalt}
+% \label{tab:werte_einzelspalt}
+%\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Radiation pressure}
+Introduction
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Theory}
+
+\subsection{Dampend driven harmonic oszilliation}
+
+\subsection{Cantilever}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experimental assembly}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+\cite{github}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}
+
+
+
+\bibliography{protocol.bib}
+\bibliographystyle{plain}
+
+\end{multicols}
+\end{document}
