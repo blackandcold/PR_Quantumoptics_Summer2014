@@ -110,7 +110,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 MessungQuadrantensensor	1	1	09.09.14 17:14
-geometry	683	272	681	270	active
+geometry	823	27	541	515	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -119,8 +119,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	6	3	660	214
-<PageGeometry>0.0089153	0.0135135	0.980684	0.963964</PageGeometry>
+ggeometry	5	4	522	453
+<PageGeometry>0.00938086	0.00856531	0.979362	0.970021</PageGeometry>
 PlotTitle	Photosensitivity	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -137,15 +137,15 @@ AxesTitleColors	#000000	#000000	#000000	#000000
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Sans	6	75	0	0	0
-ScaleFont0	Sans	5	75	0	0	0
-ScaleFont1	Sans	5	75	0	0	0
-ScaleFont2	Sans	5	75	0	0	0
-ScaleFont3	Sans	5	75	0	0	0
-AxisFont0	Sans	5	50	0	0	0
-AxisFont1	Sans	5	50	0	0	0
-AxisFont2	Sans	5	50	0	0	0
-AxisFont3	Sans	5	50	0	0	0
+TitleFont	Sans	12	75	0	0	0
+ScaleFont0	Sans	10	75	0	0	0
+ScaleFont1	Sans	10	75	0	0	0
+ScaleFont2	Sans	10	75	0	0	0
+ScaleFont3	Sans	10	75	0	0	0
+AxisFont0	Sans	10	50	0	0	0
+AxisFont1	Sans	10	50	0	0	0
+AxisFont2	Sans	10	50	0	0	0
+AxisFont3	Sans	10	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
 AxesBaseline	0	0	0	0	
@@ -205,7 +205,7 @@ EnabledTickLabels	1	1	1	1
 \l(1)%(1)
 \l(2)%(2)
 </Text>
-<Font>Sans	5	50	0	0	0</Font>
+<Font>Sans	10	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
