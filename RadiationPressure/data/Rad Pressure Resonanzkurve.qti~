@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	4
+<windows>	5
 <table>
 RechtsOben_3395	30	2	09.09.2014 09:19:06
-geometry	0	403	635	437	minimized	
+geometry	0	518	635	437	minimized	
 header	Frequenz [Hz][X]	Amplitude [mV][Y]
 ColWidth	130	142	
 <com>
@@ -41,7 +41,7 @@ WindowLabel		2
 </table>
 <table>
 RechtsUnten_1870	30	5	09.09.14 09:53
-geometry	196	403	1230	424	minimized	
+geometry	196	518	681	272	minimized	
 header	Frequenz [Hz][X]	LaserCountSum [mV]	Amplitude [mV]	Phase [Hz]	Normalized Amplitude [][Y]
 ColWidth	130	152	144	100	210	
 <com>
@@ -80,9 +80,9 @@ WindowLabel		2
 </table>
 <table>
 Sensitivity	31	4	09.09.14 15:32
-geometry	392	403	732	464	minimized	
-header	Abstand [mm][X]	DC Output Quadropol [mV]	Intensität Gesamt [mV]	1[Y]
-ColWidth	132	219	194	132	
+geometry	14	21	800	464	
+header	Abstand [mm][X]	DC Output Quadropol [mV]	Intensität Gesamt [mV]	Normalized Amplitude [][Y]
+ColWidth	132	219	194	201	
 <com>
 <col nr="3">
 col("DC Output Quadropol [mV]")/col("Intensität Gesamt [mV]")
@@ -110,7 +110,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 MessungQuadrantensensor	1	1	09.09.14 17:14
-geometry	805	3	539	461	active
+geometry	683	272	681	270	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -119,9 +119,9 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	521	398
-<PageGeometry>0.0094162	0.0121065	0.981168	0.96368</PageGeometry>
-PlotTitle	Titel	#000000	4228
+ggeometry	6	3	660	214
+<PageGeometry>0.0089153	0.0135135	0.980684	0.963964</PageGeometry>
+PlotTitle	Photosensitivity	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
@@ -132,25 +132,25 @@ Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitles	Spacing [mm]	normalized amplitude []		 	
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
+TitleFont	Sans	6	75	0	0	0
+ScaleFont0	Sans	5	75	0	0	0
+ScaleFont1	Sans	5	75	0	0	0
+ScaleFont2	Sans	5	75	0	0	0
+ScaleFont3	Sans	5	75	0	0	0
+AxisFont0	Sans	5	50	0	0	0
+AxisFont1	Sans	5	50	0	0	0
+AxisFont2	Sans	5	50	0	0	0
+AxisFont3	Sans	5	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	Sensitivity_Abstand [mm]	Sensitivity_1	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	11	1
+curve	Sensitivity_Abstand [mm]	Sensitivity_Normalized Amplitude []	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	11	1
 <Function>
 <Type>0</Type>
 <Title>NichtlinearFit1</Title>
@@ -196,8 +196,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>1.4511278195489</x>
 <y>0.3561872909699</y>
-<right>4.99248120300752</right>
-<bottom>-0.0551839464882944</bottom>
+<right>3.58485639686684</right>
+<bottom>1.08904109589041</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -205,7 +205,119 @@ EnabledTickLabels	1	1	1	1
 \l(1)%(1)
 \l(2)%(2)
 </Text>
-<Font>Sans	9	50	0	0	0</Font>
+<Font>Sans	5	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Grafik1	1	1	10.09.14 09:22
+geometry	392	518	683	542	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	6	662	476
+<PageGeometry>0.00740741	0.0121457	0.980741	0.963563</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	13	75	0	0	0
+ScaleFont0	Sans	11	75	0	0	0
+ScaleFont1	Sans	11	75	0	0	0
+ScaleFont2	Sans	11	75	0	0	0
+ScaleFont3	Sans	11	75	0	0	0
+AxisFont0	Sans	11	50	0	0	0
+AxisFont1	Sans	11	50	0	0	0
+AxisFont2	Sans	11	50	0	0	0
+AxisFont3	Sans	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	RechtsUnten_1870_Frequenz [Hz]	RechtsUnten_1870_Normalized Amplitude []	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LorentzFit1</Title>
+<Expression>y0+2*A/PI*w/(4*(x-xc)^2+w^2)</Expression>
+<Variable>x</Variable>
+<Range>1500	2200</Range>
+<Points>100</Points>
+<Constant>A	16.4375789531802</Constant>
+<Constant>w	52.2966613206488</Constant>
+<Constant>xc	1872.48393153797</Constant>
+<Constant>y0	0.0226571704483286</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	0.25	0	6	5	0	0
+scale	1	0	0.25	0	6	5	0	0
+scale	2	1400	2300	0	6	5	0	0
+scale	3	1400	2300	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<line>	1847.65679608358	0.162379901237294	1894.0057005352	0.162379901237294	1	#000000	SolidLine	0	0	4	45	1	1</line>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1430.4054054054</x>
+<y>0.22408026755853</y>
+<right>1760.30405405405</right>
+<bottom>0.189799331103679</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	11	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -339,6 +451,26 @@ RMSE (Standardabweichung) = 0,2959949751916
 RSS (Summe der quadrierten Restwerte) = 1,664647481435
 ---------------------------------------------------------------------------------------
 Iterationen = 8
+Status = success
+---------------------------------------------------------------------------------------
+
+[10.09.14 09:22	Diagramm: ''Grafik1'']
+Lorentz-Fit von Datensatz: RechtsUnten_1870_Normalized Amplitude [], unter Verwendung der Funktion: y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,5000000000000e+03 bis x = 2,2000000000000e+03
+A (Fläche) = 1,6437578953180e+01 +/- 9,8072719065829e-01
+xc (Mitte) = 1,8724839315380e+03 +/- 8,1614990533560e-01
+w (Breite) = 5,2296661320649e+01 +/- 3,1017584831987e+00
+y0 (Offset) = 2,2657170448329e-02 +/- 3,3309102443077e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 8,2505227254905e-05
+R^2 = 0,987897251172
+Angepasstes R^2 = 0,984871563965
+RMSE (Standardabweichung) = 0,009083238808647
+RSS (Summe der quadrierten Restwerte) = 0,001402588863333
+---------------------------------------------------------------------------------------
+Iterationen = 9
 Status = success
 ---------------------------------------------------------------------------------------
 </log>
