@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	6
 <table>
 RechtsOben_3395	30	2	09.09.2014 09:19:06
-geometry	392	403	635	437	minimized	
+geometry	392	427	635	437	minimized	
 header	Frequenz [Hz][X]	Amplitude [mV][Y]
 ColWidth	130	142	
 <com>
@@ -80,7 +80,7 @@ WindowLabel		2
 </table>
 <table>
 Sensitivity	31	4	09.09.14 15:32
-geometry	196	403	804	292	minimized	
+geometry	196	427	804	292	minimized	
 header	Abstand [mm][X]	DC Output Quadropol [mV]	Intensität Gesamt [mV]	Normalized Amplitude [][Y]
 ColWidth	132	219	194	201	
 <com>
@@ -110,7 +110,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 Grafik1	1	1	10.09.14 09:22
-geometry	0	403	683	542	minimized	
+geometry	0	427	683	542	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -222,7 +222,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Resonanzkurve	1	1	10.09.14 14:08
-geometry	588	403	615	465	minimized	
+geometry	588	427	615	465	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -334,7 +334,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Slopeofsensitivityofthesensor	1	1	10.09.14 14:26
-geometry	784	403	539	416	minimized	
+geometry	784	427	539	416	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5

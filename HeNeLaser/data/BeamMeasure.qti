@@ -1,0 +1,937 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	12
+<table>
+Messung1	30	3	11.09.14 16:41
+geometry	588	403	560	376	minimized	
+header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
+ColWidth	111	151	242	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel	0.29m +- 0.005	2
+<data>
+0	0	8	0.5
+1	200	67	1
+2	400	182	2
+3	600	118	1
+4	800	18	0.5
+5	1000	5	1
+</data>
+</table>
+<multiLayer>
+GaussFitMessung1	1	1	11.09.14 16:55
+geometry	0	403	525	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	398
+<PageGeometry>0.00967118	0.0121065	0.980658	0.96368</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Messung1_Ort [mu m]	Messung1_Intensität [muW]	1	0	#000000	0	1	3	1	#000000	#000000	0	#000000	14	0.2	2	0	0	29	1
+ErrorBars	1	Messung1_Ort [mu m]	Messung1_Intensität [muW]	Messung1_Intensitätsschwankung [muW]	1	8	#000000	1	1	1	0
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>0	1000</Range>
+<Points>100</Points>
+<Constant>A	75938.9593449405</Constant>
+<Constant>w	324.436654791413</Constant>
+<Constant>xc	438.564401912481</Constant>
+<Constant>y0	3.08805755051243</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	200	0	5	5	0	0
+scale	1	0	200	0	5	5	0	0
+scale	2	-200	1200	0	8	5	0	0
+scale	3	-200	1200	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-164.91228070175</x>
+<y>193.3110367893</y>
+<right>182.456140350877</right>
+<bottom>173.913043478261</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(3)%(3)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+Messung2	30	3	11.09.14 16:56
+geometry	784	403	560	376	minimized	
+header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
+ColWidth	111	151	242	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel	0.305m +- 0.005	2
+<data>
+0	0	5	1
+1	200	38	2
+2	400	162	2
+3	600	181	2
+4	800	51	2
+5	1000	7	1
+</data>
+</table>
+<multiLayer>
+GaussFitMessung2	1	1	11.09.14 17:05
+geometry	196	403	525	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	398
+<PageGeometry>0.00967118	0.0121065	0.980658	0.96368</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Messung2_Ort [mu m]	Messung2_Intensität [muW]	1	0	#000000	0	1	3	1	#000000	#000000	0	#000000	14	0.5	2	0	0	29	1
+ErrorBars	1	Messung2_Ort [mu m]	Messung2_Intensität [muW]	Messung2_Intensitätsschwankung [muW]	1	8	#000000	1	1	1	0
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>0	1000</Range>
+<Points>100</Points>
+<Constant>A	84544.7964763429</Constant>
+<Constant>w	335.260134616145</Constant>
+<Constant>xc	515.702628504654</Constant>
+<Constant>y0	3.5613190041229</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	250	0	6	5	0	0
+scale	1	0	200	0	5	5	0	0
+scale	2	-200	1200	0	8	5	0	0
+scale	3	-200	1200	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-164.91228070175</x>
+<y>193.3110367893</y>
+<right>182.456140350877</right>
+<bottom>173.913043478261</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(3)%(3)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+Messung3	30	3	11.09.14 17:07
+geometry	980	403	560	377	minimized	
+header	Intensität [muW][Y]	Ort [mu m][X]	Intensitätsschwankung [muW][yEr]
+ColWidth	151	111	242	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel	0.43m +- 0.005	2
+<data>
+0	7	0	1
+1	25	200	2
+2	130	400	2
+3	210	600	3
+4	88	800	2
+5	14	1000	2
+</data>
+</table>
+<multiLayer>
+GaussFitMessung3	1	1	11.09.14 17:09
+geometry	392	403	525	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	398
+<PageGeometry>0.00967118	0.0121065	0.980658	0.96368</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Messung3_Ort [mu m]	Messung3_Intensität [muW]	1	0	#000000	0	1	3	1	#000000	#000000	0	#000000	14	0.5	2	0	0	29	1
+ErrorBars	1	Messung3_Ort [mu m]	Messung3_Intensität [muW]	Messung3_Intensitätsschwankung [muW]	1	8	#000000	1	1	1	0
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>0	1000</Range>
+<Points>100</Points>
+<Constant>A	87248.1616751501</Constant>
+<Constant>w	336.763451860465</Constant>
+<Constant>xc	570.504972718471</Constant>
+<Constant>y0	6.32237334475269</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	250	0	6	5	0	0
+scale	1	0	250	0	6	5	0	0
+scale	2	-200	1200	0	8	5	0	0
+scale	3	-200	1200	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-164.91228070175</x>
+<y>241.63879598662</y>
+<right>182.456140350877</right>
+<bottom>217.391304347826</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(3)%(3)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+Messung4	30	3	11.09.14 17:12
+geometry	196	379	610	377	minimized	
+header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
+ColWidth	111	151	269	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel	0.505m +- 0.005	2
+<data>
+0	0	6	1
+1	200	35	2
+2	400	145	4
+3	600	213	4
+4	800	90	2
+5	1000	15	2
+</data>
+</table>
+<multiLayer>
+GaussFitMessung4	1	1	11.09.14 17:14
+geometry	0	379	525	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	398
+<PageGeometry>0.00967118	0.0121065	0.980658	0.96368</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Messung4_Ort [mu m]	Messung4_Intensität [muW]	1	0	#000000	0	1	3	1	#000000	#000000	0	#000000	14	0.5	2	0	0	29	1
+ErrorBars	1	Messung4_Ort [mu m]	Messung4_Intensität [muW]	Messung4_Intensitätsschwankung [muW]	1	8	#000000	1	1	1	0
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>0	1000</Range>
+<Points>100</Points>
+<Constant>A	95522.3897636363</Constant>
+<Constant>w	359.757986184367</Constant>
+<Constant>xc	558.426461810802</Constant>
+<Constant>y0	4.48874244726886</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	250	0	6	5	0	0
+scale	1	0	250	0	6	5	0	0
+scale	2	-200	1200	0	8	5	0	0
+scale	3	-200	1200	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-164.91228070175</x>
+<y>241.63879598662</y>
+<right>182.456140350877</right>
+<bottom>217.391304347826</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(3)%(3)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+Messung5	30	3	11.09.14 17:15
+geometry	588	379	610	377	minimized	
+header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
+ColWidth	111	151	269	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel	0.605m +- 0.005	2
+<data>
+0	0	5	1
+1	300	21	1
+2	600	140	3
+3	900	152	3
+4	1100	47	4
+5	1300	12	2
+</data>
+</table>
+<multiLayer>
+GaussFitMessung5	1	1	11.09.14 17:19
+geometry	392	379	525	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	398
+<PageGeometry>0.00967118	0.0121065	0.980658	0.96368</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Messung5_Ort [mu m]	Messung5_Intensität [muW]	1	0	#000000	0	1	3	1	#000000	#000000	0	#000000	14	0.5	2	0	0	29	1
+ErrorBars	1	Messung5_Ort [mu m]	Messung5_Intensität [muW]	Messung5_Intensitätsschwankung [muW]	1	8	#000000	1	1	1	0
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>0	1300</Range>
+<Points>100</Points>
+<Constant>A	94816.7830850299</Constant>
+<Constant>w	412.802569615749</Constant>
+<Constant>xc	759.076686034637</Constant>
+<Constant>y0	5.15156408350521</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	200	0	5	5	0	0
+scale	1	0	160	0	9	5	0	0
+scale	2	-200	1400	0	9	5	0	0
+scale	3	-200	1400	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-159.89974937343</x>
+<y>154.64882943144</y>
+<right>237.092731829574</right>
+<bottom>139.130434782609</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(3)%(3)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+Messung6	30	3	11.09.14 17:20
+geometry	980	379	610	377	minimized	active
+header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
+ColWidth	111	151	269	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel	0.705m +- 0.005	2
+<data>
+0	0	5	2
+1	300	24	2
+2	600	133	2
+3	900	161	3
+4	1200	33	2
+5	1500	5	1
+</data>
+</table>
+<multiLayer>
+GaussFitMessung6	1	1	11.09.14 17:22
+geometry	784	379	525	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	398
+<PageGeometry>0.00967118	0.0121065	0.980658	0.96368</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Messung6_Ort [mu m]	Messung6_Intensität [muW]	1	0	#000000	0	1	3	1	#000000	#000000	0	#000000	14	0.5	2	0	0	29	1
+ErrorBars	1	Messung6_Ort [mu m]	Messung6_Intensität [muW]	Messung6_Intensitätsschwankung [muW]	1	8	#000000	1	1	1	0
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>0	1500</Range>
+<Points>100</Points>
+<Constant>A	99934.3927112083</Constant>
+<Constant>w	443.924692593742</Constant>
+<Constant>xc	779.464355569777</Constant>
+<Constant>y0	4.35670474330529</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	200	0	5	5	0	0
+scale	1	0	200	0	5	5	0	0
+scale	2	-200	1600	0	10	5	0	0
+scale	3	-200	1600	0	10	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-154.88721804511</x>
+<y>193.3110367893</y>
+<right>291.729323308271</right>
+<bottom>173.913043478261</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(3)%(3)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[11.09.14 16:51	Diagramm: ''Grafik1'']
+Gauß-Fit von Datensatz: Messung1_Intensität [muW], unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,0000000000000e+03
+A (Fläche) = 7,5697283082059e+04 +/- 1,2214651389272e+03
+xc (Mitte) = 4,3948432079244e+02 +/- 1,6512512750138e+00
+w (Breite) = 3,2744374617437e+02 +/- 4,3039617507539e+00
+y0 (Offset) = 3,2678443590038e+00 +/- 1,2005881658048e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,4645867043661e+00
+R^2 = 0,9998070723277
+Angepasstes R^2 = 0,9990353616385
+RMSE (Standardabweichung) = 1,56990022115
+RSS (Summe der quadrierten Restwerte) = 4,929173408732
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+[11.09.14 16:56	Diagramm: ''Grafik1'']
+Gauß-Fit von Datensatz: Messung1_Intensität [muW], unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Instrumentell: unter Benutzung der Fehlerbalken (w_i = 1/er_i**2), unter Benutzung der Fehlerbalkendaten: Messung1_Intensitätsschwankung [muW]
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,0000000000000e+03
+A (Fläche) = 7,5938959344941e+04 +/- 1,3191977330152e+03
+xc (Mitte) = 4,3856440191248e+02 +/- 1,9387610077757e+00
+w (Breite) = 3,2443665479141e+02 +/- 5,6584245548248e+00
+y0 (Offset) = 3,0880575505124e+00 +/- 1,1181080575820e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,6529610579960e+00
+R^2 = 0,9997767951633
+Angepasstes R^2 = 0,9988839758163
+RMSE (Standardabweichung) = 1,911272104645
+RSS (Summe der quadrierten Restwerte) = 7,305922115992
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+[11.09.14 17:05	Diagramm: ''Grafik1'']
+Gauß-Fit von Datensatz: Messung2_Intensität [muW], unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Instrumentell: unter Benutzung der Fehlerbalken (w_i = 1/er_i**2), unter Benutzung der Fehlerbalkendaten: Messung2_Intensitätsschwankung [muW]
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,0000000000000e+03
+A (Fläche) = 8,4544796476343e+04 +/- 4,7178942283039e+02
+xc (Mitte) = 5,1570262850465e+02 +/- 7,1298408417483e-01
+w (Breite) = 3,3526013461615e+02 +/- 1,9192168434500e+00
+y0 (Offset) = 3,5613190041229e+00 +/- 3,2830460673926e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,4028405508863e-01
+R^2 = 0,9999806564783
+Angepasstes R^2 = 0,9999032823916
+RMSE (Standardabweichung) = 0,3745451309103
+RSS (Summe der quadrierten Restwerte) = 0,2805681101773
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+[11.09.14 17:09	Diagramm: ''Grafik1'']
+Gauß-Fit von Datensatz: Messung3_Intensität [muW], unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Instrumentell: unter Benutzung der Fehlerbalken (w_i = 1/er_i**2), unter Benutzung der Fehlerbalkendaten: Messung3_Intensitätsschwankung [muW]
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,0000000000000e+03
+A (Fläche) = 8,7248161675150e+04 +/- 2,0256717428863e+02
+xc (Mitte) = 5,7050497271847e+02 +/- 3,1791429353560e-01
+w (Breite) = 3,3676345186047e+02 +/- 7,9483221378099e-01
+y0 (Offset) = 6,3223733447527e+00 +/- 1,5959441488960e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,7008148776175e-02
+R^2 = 0,999994341786
+Angepasstes R^2 = 0,9999717089298
+RMSE (Standardabweichung) = 0,1643415613172
+RSS (Summe der quadrierten Restwerte) = 0,05401629755235
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+[11.09.14 17:14	Diagramm: ''GaussFitMessung4'']
+Gauß-Fit von Datensatz: Messung4_Intensität [muW], unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Instrumentell: unter Benutzung der Fehlerbalken (w_i = 1/er_i**2), unter Benutzung der Fehlerbalkendaten: Messung4_Intensitätsschwankung [muW]
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,0000000000000e+03
+A (Fläche) = 9,5522389763636e+04 +/- 1,4987535351777e+03
+xc (Mitte) = 5,5842646181080e+02 +/- 2,2874937273646e+00
+w (Breite) = 3,5975798618437e+02 +/- 5,1719336728013e+00
+y0 (Offset) = 4,4887424472689e+00 +/- 9,6924304875882e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,8200668285569e-01
+R^2 = 0,9998291839216
+Angepasstes R^2 = 0,9991459196081
+RMSE (Standardabweichung) = 0,8843114173501
+RSS (Summe der quadrierten Restwerte) = 1,564013365711
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+[11.09.14 17:19	Diagramm: ''Grafik1'']
+Gauß-Fit von Datensatz: Messung5_Intensität [muW], unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Instrumentell: unter Benutzung der Fehlerbalken (w_i = 1/er_i**2), unter Benutzung der Fehlerbalkendaten: Messung5_Intensitätsschwankung [muW]
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,3000000000000e+03
+A (Fläche) = 9,4816783085030e+04 +/- 2,1308421541069e+03
+xc (Mitte) = 7,5907668603464e+02 +/- 4,0939201816553e+00
+w (Breite) = 4,1280256961575e+02 +/- 9,4952732580026e+00
+y0 (Offset) = 5,1515640835052e+00 +/- 1,1307975664647e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2915497714344e+00
+R^2 = 0,9996462205719
+Angepasstes R^2 = 0,9982311028597
+RMSE (Standardabweichung) = 1,136463713206
+RSS (Summe der quadrierten Restwerte) = 2,583099542869
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+[11.09.14 17:23	Diagramm: ''GaussFitMessung6'']
+Gauß-Fit von Datensatz: Messung6_Intensität [muW], unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Instrumentell: unter Benutzung der Fehlerbalken (w_i = 1/er_i**2), unter Benutzung der Fehlerbalkendaten: Messung6_Intensitätsschwankung [muW]
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,5000000000000e+03
+A (Fläche) = 9,9934392711208e+04 +/- 1,9602429568361e+03
+xc (Mitte) = 7,7946435556978e+02 +/- 3,5531926372941e+00
+w (Breite) = 4,4392469259374e+02 +/- 9,5438660019362e+00
+y0 (Offset) = 4,3567047433053e+00 +/- 1,0284929779486e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,0964972455531e+00
+R^2 = 0,9996761480462
+Angepasstes R^2 = 0,9983807402309
+RMSE (Standardabweichung) = 1,047137644034
+RSS (Summe der quadrierten Restwerte) = 2,192994491106
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+</log>
