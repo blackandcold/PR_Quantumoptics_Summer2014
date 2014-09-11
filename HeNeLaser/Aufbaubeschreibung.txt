@@ -125,3 +125,23 @@ RSS (Summe der quadrierten Restwerte) = 2,192994491106
 Iterationen = 7
 Status = success
 ---------------------------------------------------------------------------------------
+
+[11.09.14 17:34	Diagramm: ''Grafik1'']
+Gauß-Fit von Datensatz: MessungVertikal_Intensität [muW], unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Instrumentell: unter Benutzung der Fehlerbalken (w_i = 1/er_i**2), unter Benutzung der Fehlerbalkendaten: MessungVertikal_Intensitätsschwankung [muW]
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,0000000000000e+03
+A (Fläche) = 6,9661787144779e+04 +/- 2,2700498875877e+03
+xc (Mitte) = 5,5157491999069e+02 +/- 4,6772859666543e+00
+w (Breite) = 3,2318363881724e+02 +/- 1,0996815996205e+01
+y0 (Offset) = 5,5241652681556e+00 +/- 1,3689276964555e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,5615034612294e+00
+R^2 = 0,9993275299026
+Angepasstes R^2 = 0,9966376495129
+RMSE (Standardabweichung) = 1,600469762673
+RSS (Summe der quadrierten Restwerte) = 5,123006922459
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
