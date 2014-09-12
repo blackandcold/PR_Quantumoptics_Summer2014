@@ -949,7 +949,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <table>
 Polarisation	30	4	12.09.14 10:19
-geometry	15	10	625	440	
+geometry	784	470	625	440	minimized	active
 header	LambdaHalbeWinkel[X]	Intensität [mW][Y]	EIntensität[yEr]	EWinkel[xEr]
 ColWidth	175	143	123	100	
 <com>
@@ -997,7 +997,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 GraphPolarisation	1	1	12.09.14 11:18
-geometry	704	12	550	485	active
+geometry	588	470	550	485	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
