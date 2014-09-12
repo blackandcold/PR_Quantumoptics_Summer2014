@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	17
 <table>
 Messung1	30	3	11.09.14 16:41
-geometry	0	470	-1	-1	minimized	
+geometry	0	494	-1	-1	minimized	
 header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
 ColWidth	111	151	242	
 <com>
@@ -24,7 +24,7 @@ WindowLabel	0.29m +- 0.005	2
 </table>
 <table>
 Messung2	30	3	11.09.14 16:56
-geometry	980	494	-1	-1	minimized	
+geometry	980	518	-1	-1	minimized	
 header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
 ColWidth	111	151	242	
 <com>
@@ -45,7 +45,7 @@ WindowLabel	0.305m +- 0.005	2
 </table>
 <table>
 Messung3	30	3	11.09.14 17:07
-geometry	784	494	-1	-1	minimized	
+geometry	784	518	-1	-1	minimized	
 header	Intensität [muW][Y]	Ort [mu m][X]	Intensitätsschwankung [muW][yEr]
 ColWidth	151	111	242	
 <com>
@@ -66,7 +66,7 @@ WindowLabel	0.43m +- 0.005	2
 </table>
 <table>
 Messung4	30	3	11.09.14 17:12
-geometry	588	494	-1	-1	minimized	
+geometry	588	518	-1	-1	minimized	
 header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
 ColWidth	111	151	269	
 <com>
@@ -87,7 +87,7 @@ WindowLabel	0.505m +- 0.005	2
 </table>
 <table>
 Messung5	30	3	11.09.14 17:15
-geometry	392	494	-1	-1	minimized	
+geometry	392	518	-1	-1	minimized	
 header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
 ColWidth	111	151	269	
 <com>
@@ -108,7 +108,7 @@ WindowLabel	0.605m +- 0.005	2
 </table>
 <table>
 Messung6	30	3	11.09.14 17:20
-geometry	196	494	-1	-1	minimized	
+geometry	196	518	-1	-1	minimized	
 header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
 ColWidth	111	151	269	
 <com>
@@ -129,7 +129,7 @@ WindowLabel	0.705m +- 0.005	2
 </table>
 <table>
 MessungVertikal	30	3	11.09.14 17:30
-geometry	0	494	-1	-1	minimized	
+geometry	0	518	-1	-1	minimized	
 header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
 ColWidth	111	151	242	
 <com>
@@ -150,7 +150,7 @@ WindowLabel	0.43m +- 0.005	2
 </table>
 <table>
 Strahlgeometrie	30	4	12.09.14 09:51
-geometry	392	470	643	296	minimized	
+geometry	392	494	643	296	minimized	
 header	Abstand [m][X]	Halbwertsbreite [mu m][Y]	EHalbwertsbreite[yEr]	EAbstand[xEr]
 ColWidth	100	198	165	122	
 <com>
@@ -165,7 +165,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 GaussFitMessung1	1	1	11.09.14 16:55
-geometry	980	518	525	461	minimized	
+geometry	980	542	525	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -277,7 +277,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 GaussFitMessung2	1	1	11.09.14 17:05
-geometry	784	518	525	461	minimized	
+geometry	784	542	525	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -389,7 +389,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 GaussFitMessung3	1	1	11.09.14 17:09
-geometry	588	518	525	461	minimized	
+geometry	588	542	525	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -501,7 +501,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 GaussFitMessung4	1	1	11.09.14 17:14
-geometry	392	518	525	461	minimized	
+geometry	392	542	525	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -613,7 +613,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 GaussFitMessung5	1	1	11.09.14 17:19
-geometry	196	518	525	461	minimized	
+geometry	196	542	525	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -725,7 +725,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 GaussFitMessung6	1	1	11.09.14 17:22
-geometry	0	518	525	461	minimized	
+geometry	0	542	525	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -837,7 +837,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 GaussFitVertikal	1	1	11.09.14 17:34
-geometry	196	470	525	461	minimized	
+geometry	196	494	525	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -949,7 +949,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <table>
 Polarisation	30	4	12.09.14 10:19
-geometry	784	470	625	440	minimized	active
+geometry	588	494	625	440	minimized	
 header	LambdaHalbeWinkel[X]	Intensität [mW][Y]	EIntensität[yEr]	EWinkel[xEr]
 ColWidth	175	143	123	100	
 <com>
@@ -997,7 +997,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 GraphPolarisation	1	1	12.09.14 11:18
-geometry	588	470	550	485	minimized	
+geometry	784	494	550	485	minimized	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
