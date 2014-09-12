@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fit>
+<fit version="1.0">
+<model>Benutzer1</model>
+<type>2</type>
+<function>A*sin(x/f+phi)+B</function>
+<parameter>
+    <name>A</name>
+    <explanation></explanation>
+    <value>7.0000000000000e-01</value>
+</parameter>
+<parameter>
+    <name>B</name>
+    <explanation></explanation>
+    <value>7.0000000000000e-01</value>
+</parameter>
+<parameter>
+    <name>f</name>
+    <explanation></explanation>
+    <value>1.4600000000000e+01</value>
+</parameter>
+<parameter>
+    <name>phi</name>
+    <explanation></explanation>
+    <value>-2.0000000000000e-01</value>
+</parameter>
+</fit>

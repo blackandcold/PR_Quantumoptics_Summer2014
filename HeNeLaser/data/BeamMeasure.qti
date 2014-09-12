@@ -949,7 +949,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <table>
 Polarisation	30	4	12.09.14 10:19
-geometry	15	10	625	440	active
+geometry	15	10	625	440	
 header	LambdaHalbeWinkel[X]	Intensität [mW][Y]	EIntensität[yEr]	EWinkel[xEr]
 ColWidth	175	143	123	100	
 <com>
@@ -997,7 +997,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 GraphPolarisation	1	1	12.09.14 11:18
-geometry	808	13	539	461	
+geometry	704	12	550	485	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1006,8 +1006,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	521	398
-<PageGeometry>0.0094162	0.0121065	0.981168	0.96368</PageGeometry>
+ggeometry	5	5	532	422
+<PageGeometry>0.00922509	0.0114416	0.98155	0.965675</PageGeometry>
 PlotTitle	Titel	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -1024,15 +1024,15 @@ AxesTitleColors	#000000	#000000	#000000	#000000
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
+TitleFont	Sans	12	75	0	0	0
+ScaleFont0	Sans	10	75	0	0	0
+ScaleFont1	Sans	10	75	0	0	0
+ScaleFont2	Sans	10	75	0	0	0
+ScaleFont3	Sans	10	75	0	0	0
+AxisFont0	Sans	10	50	0	0	0
+AxisFont1	Sans	10	50	0	0	0
+AxisFont2	Sans	10	50	0	0	0
+AxisFont3	Sans	10	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
 AxesBaseline	0	0	0	0	
@@ -1072,7 +1072,7 @@ EnabledTickLabels	1	1	1	1
 <Text>
 \l(1)%(1)
 </Text>
-<Font>Sans	9	50	0	0	0</Font>
+<Font>Sans	10	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>

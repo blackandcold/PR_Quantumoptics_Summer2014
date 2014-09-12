@@ -1,3 +1,5 @@
+#Gaussfits für Strahlcharakteristik#
+
 ---------------------------------------------------------------------------------------
 [11.09.14 16:56	Diagramm: ''Grafik1'']
 Gauß-Fit von Datensatz: Messung1_Intensität [muW], unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
@@ -145,3 +147,11 @@ RSS (Summe der quadrierten Restwerte) = 5,123006922459
 Iterationen = 7
 Status = success
 ---------------------------------------------------------------------------------------
+
+
+
+
+# Polarisationsmessung #
+Max.: 1.4 mW
+Min.: 0.012 mW
+Visibility: 0,983
