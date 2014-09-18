@@ -1,0 +1,49 @@
+REPORT-FILE from 09/17/2014 11:43:45.156  written 09/17/2014 11:43:59
+REALTIME: 11.906      
+TOTALSUM: 3444        
+ROISUM: 1790        
+MAXVAL: 5           
+SWEEPS: 1           
+cmline0=09/17/2014 11:43:45.156 
+range=524288
+prena=1
+mcsmode=41
+roimin=0
+roimax=262144
+rtpreset=11.000      
+evpreset=10000       
+swpreset=1           
+rampmode=0
+rampstart=1024
+rampstep=1
+rampbin=1
+ramplen=1024
+qdacuse=0
+qdac=2048
+dac1use=0
+dac1val=0
+impsel=6f
+thrstart=2455
+thr1=2587
+thr2=1716
+thrclk=1716
+diguse=0
+digval=0
+cycles=128
+sequences=1
+mempart=0
+dwelltime=799
+dwellunit=1
+syncout=89
+histlen=0
+autoinc=1 
+;datname=C:\Dokumente und Einstellungen\Administrator\Desktop\chopper\aa_005.mcd
+savedata=1 
+fmt=asc
+smoothpts=5 
+caluse=1 
+caloff=0.000000
+calfact=1.000000
+calfact2=0
+calfact3=0
+calunit=usec
