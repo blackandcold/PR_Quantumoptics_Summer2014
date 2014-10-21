@@ -1,0 +1,138 @@
+% -*- TeX:de -*-
+\NeedsTeXFormat{LaTeX2e}
+\documentclass[12pt,a4paper]{article}
+\usepackage[english]{babel} % german text
+\usepackage[DIV12]{typearea} % size of printable area
+\usepackage[T1]{fontenc} % font encoding
+%\usepackage[latin1]{inputenc} % most likely on Windows
+\usepackage[utf8]{inputenc} % probably on Linux
+\usepackage{multicol}
+% PLOTTING
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{url}
+\usepackage{graphicx} % to include images
+\usepackage{tikz}
+\usepackage{subfigure} % for creating subfigures
+\usepackage{amsmath} % a bunch of symbols
+\usepackage{amssymb} % even more symbols
+\usepackage{booktabs} % pretty tables
+\usepackage{makecell} % multi row table heading
+% a floating environment for circuits
+\usepackage{float}
+\usepackage{caption}
+\usepackage{hyperref}
+
+% Title Page command
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+%\newfloat{circuit}{tbph}{circuits}
+%\floatname{circuit}{Schaltplan}
+% a floating environment for diagrams
+%\newfloat{diagram}{tbph}{diagrams}
+%\floatname{diagram}{Diagramm}
+\pgfplotsset{compat=1.8}
+\selectlanguage{english} % use german
+
+\begin{document}
+%%%%%%% DECKBLATT %%%%%%%
+\input{title.tex}
+%%%%%%% DECKBLATT ENDE %%%%%%%
+\pagebreak
+
+\setlength{\columnsep}{20pt}
+\begin{multicols}{2}
+
+\begin{abstract}
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure}[H]
+% \centering
+% \includegraphics[scale=0.35]{./data/beugung.png}
+% \caption{Beugungsmuster Einzelspalt (echtes Foto; schwarz durch weiß ersetzt)}
+% \label{fig:beugungsmuster}
+%\end{figure}
+
+%\begin{figure}[H]
+% \centering
+% \pgfplotstabletypeset[
+% columns={abstand, n},
+% col sep=&,
+% columns/abstand/.style={precision=2, zerofill, column name=\makecell{$Abstand$\\$(\pm 0.05)[mm]$} },
+% columns/n/.style={column name=\makecell{$n$\\$(Ordnung)$}, precision=0},
+% every head row/.style={before row=\hline,after row=\hline\hline},
+% every last row/.style={after row=\hline},
+% every first column/.style={column type/.add={|}{} },
+% every last column/.style={column type/.add={}{|} }
+% ]{
+% abstand & n
+% 12.9 & 1
+% 24.45 & 2
+% 37.40 & 3
+% 49.35& 4
+% 62.45 & 5
+% 74.45 & 6
+% 87.45 & 7
+% 100.25 & 8
+%
+% }
+% \caption{Messwerte Einzelspalt}
+% \label{tab:werte_einzelspalt}
+%\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Radiation pressure}
+Goal of this work is to demonstrate how massless photons counter intuitively create pressure based on quantum mechanical
+properties.
+On the following pages the theoretical basics will be explained and enhanced to fit the experiment. 
+The Experiment itself will be explained in further sections. Results and discussion about the outcome
+will finish this work.
+
+$x^2$\\
+
+$$\sqrt{a}$$
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Theory}
+gfhgfhgj
+\subsection{Dampend driven harmonic oszilliation}
+
+\subsection{Cantilever}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experimental assembly}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+
+
+
+
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[scale=1]{../figures/Resonanzkurve.png}
+%	\caption{Resonanzkurve}
+%	\label{fig:resonanzkurve}
+%\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}
+
+
+\section{Resources}
+\begin{itemize}
+	\item SImulation of the Experiment \url{http://www.univie.ac.at}
+\end{itemize}
+%\bibliography{protocol.bib}
+%\bibliographystyle{plain}
+
+\end{multicols}
+\end{document}
