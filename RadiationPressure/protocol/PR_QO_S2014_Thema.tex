@@ -21,6 +21,7 @@
 % a floating environment for circuits
 \usepackage{float}
 \usepackage{caption}
+\usepackage{hyperref}
 
 % Title Page command
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
@@ -85,39 +86,53 @@ Goal of this work is to demonstrate how massless photons counter intuitively cre
 properties.
 On the following pages the theoretical basics will be explained and enhanced to fit the experiment.
 The Experiment itself will be explained in further sections. Results and discussion about the outcome
-will finish this work.
+will complete this work.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Theory}
-
-\subsection{Dampend driven harmonic oszilliation}
+The foundation of photons inducing a pressure comes from the photoelectric effect where (Max Planck) stated that:
+$$E = h * \nu$$
+The energy E of a photon is proportional to the Planck constant times the frequency $\nu$.
+From this knowledge combined with (Einstein's) law $E = m * c^2$ we can derive a mass:
+$$m = \frac{h * \nu}{c^2}$$
+Combined with the classical definition of momentum $p = m * v$ we get:
+$$p = \frac{h * \nu}{c^2} * c = \frac{h * \nu}{c}$$
+Due to the fact that pressure is defined as force per square meter we can get the pressure by the time derivative of the momentum times the number of particles per area element.
 
 \subsection{Cantilever}
+A cantilever is a high (> 99\%) reflective mirror with the diameter of about a millimeter. The size may vary concerning the usage. In example a photon trap may have bigger mirrors (also convex etc).\\ 
+The mirror in our case is mounted on a long rod so it can oscillate back and forth.
+High reflectivity is needed because the highest force transfer and therefore pressure is obtained when all photons are reflected.
+
+\subsection{Dampend driven harmonic oszilliation}
+With a pulsed laser and a previous described cantilever we can build a oscillator that responds to the force of the photons. Because we want to measure a very tiny pressure the cantilever has to be driven by the pulsed laser at the resonance frequency of the oscillator. Due to the fact that we don't cool or evacuate our setup we have a dampening that is overcome by the repeated pulsing of the laser with the resonance frequency.\\
+The calculation of the oscillator is stated in the experimental description \cite{physikwiki}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Experimental assembly}
-
+We have a build up table top experiment composed of different components.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
 \cite{github}
 
-
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=1]{../figures/Resonanzkurve.png}
+	\includegraphics[scale=1.2]{../figures/Resonanzkurve.png}
 	\caption{Resonanzkurve}
 	\label{fig:resonanzkurve}
 \end{figure}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
+tba
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagebreak
 
 \bibliography{protocol.bib}
 \bibliographystyle{plain}
