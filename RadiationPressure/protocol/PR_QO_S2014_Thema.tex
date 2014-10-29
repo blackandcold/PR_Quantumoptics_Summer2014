@@ -91,6 +91,7 @@ will complete this work.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Theory}
+\label{theory}
 The foundation of photons inducing a pressure comes from the photoelectric effect where (Max Planck) stated that:
 $$E = h * \nu$$
 The energy E of a photon is proportional to the Planck constant times the frequency $\nu$.
@@ -98,37 +99,95 @@ From this knowledge combined with (Einstein's) law $E = m * c^2$ we can derive a
 $$m = \frac{h * \nu}{c^2}$$
 Combined with the classical definition of momentum $p = m * v$ we get:
 $$p = \frac{h * \nu}{c^2} * c = \frac{h * \nu}{c}$$
-Due to the fact that pressure is defined as force per square meter we can get the pressure by the time derivative of the momentum times the number of particles per area element.
+Due to the fact that pressure is defined as force per square meter we can get the pressure by the time derivative of the momentum times the number of particles per area element. The outcome is a simple dependency between force and power of the laser:
+$$F_0 = \frac{2P}{c}$$
 
 \subsection{Cantilever}
-A cantilever is a high (> 99\%) reflective mirror with the diameter of about a millimeter. The size may vary concerning the usage. In example a photon trap may have bigger mirrors (also convex etc).\\ 
-The mirror in our case is mounted on a long rod so it can oscillate back and forth.
-High reflectivity is needed because the highest force transfer and therefore pressure is obtained when all photons are reflected.
-
-\subsection{Dampend driven harmonic oszilliation}
+A cantilever is a high (> 99\%) reflective mirror on top of a long rod so it can oscillate back and forth.
+High reflectivity is needed because the highest force transfer and therefore pressure is obtained when all photons are reflected. We have a set of multiple cantilevers on a single plate \ref{cantilever}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.2]{../figures/cantilever.png}
+	\caption{Multiple cantilever on one plate \cite{physikwiki}}
+	\label{fig:cantilever}
+\end{figure}
+\subsection{Dampend driven harmonic oscilliation}
 With a pulsed laser and a previous described cantilever we can build a oscillator that responds to the force of the photons. Because we want to measure a very tiny pressure the cantilever has to be driven by the pulsed laser at the resonance frequency of the oscillator. Due to the fact that we don't cool or evacuate our setup we have a dampening that is overcome by the repeated pulsing of the laser with the resonance frequency.\\
-The calculation of the oscillator is stated in the experimental description \cite{physikwiki}.
+The calculation of the (mechanical) oscillator is stated in the experimental description \cite{physikwiki}.\\
+Properties of the oscillator are the resonance frequency and the quality factor (taken from \cite{physikwiki}).\\
+The quality factor:
+$$Q = \frac{\omega_0}{\gamma}$$
+Resonanz frequency :
+$$\omega_0 = \sqrt{\frac{k}{m}}$$
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Experimental assembly}
-We have a build up table top experiment composed of different components.
+We have a build up table top experiment composed of different components which can be seen in \ref{fig:setup}.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.2]{../figures/aufbau.png}
+	\caption{Setup}
+	\label{fig:setup}
+\end{figure}
+% TODO Aufbau Beschreiben
+
+%% TODO Akustische Messung, Displacement bei pulsed Laser
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{../figures/messung.png}
+	\caption{Measurment}
+	\label{fig:measurement}
+\end{figure}
+
+\noindent
+\textbf{How to interpret the measurement}\\
+Now combine the theory from \ref{theory} into one formula with the knowledge about the oscillator in \cite{physikwiki}:
+$$\gamma = \frac{D}{m} = \frac{\omega_0}{Q}$$
+From the solution to the harmonic driven dampened oscillator in \cite{physikwiki} we derive a formula for the position:
+$$x_0 = \frac{F_0}{m}  \frac{1}{\sqrt{ (\omega_0^2 - \omega^2 )^2 + \gamma^2  \omega^2}}$$
+Because the interesting point is where $\omega_0 = \omega$ (resonance) we can set that to zero and get
+$$x_0 = \frac{F_0}{m} * \frac{1}{\gamma  \omega}$$
+using the definition for $\gamma$ and $\omega_0^2$ we get
+$$k = \frac{F_0 * Q}{x_0}$$
+for the spring constant.\\
+The $x_0$ is what we measure depending on the intensity of the laser, the displacement on the sensor, the distance of the beam from cantilever to sensor and the length of the cantilever (resulting in a conversion factor from sensor result to displacement).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
-\cite{github}
+The full document and the results contained in a QTI file and a Excel sheet can be found in \cite{github}.
+
+% TODO werte!
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=1.2]{../figures/Resonanzkurve.png}
-	\caption{Resonanzkurve}
+	\caption{Resonance curve}
 	\label{fig:resonanzkurve}
 \end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1.4]{../figures/ResonanzkurveHalbwertsbreite.png}
+	\caption{Full width half maximum of the resonance curve}
+	\label{fig:resonanzkurvehmfuw}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1.4]{../figures/Slopeofsensitivityofthesensor.png}
+	\caption{Slope of the sensitivity of the sensor}
+	\label{fig:sensorsensitivity}
+\end{figure}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
-tba
+
+% TODO lob und Kritik
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
