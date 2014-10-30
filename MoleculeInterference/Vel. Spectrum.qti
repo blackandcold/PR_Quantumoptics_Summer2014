@@ -4552,7 +4552,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	521	419
-PlotTitle	Velocity Spectrum	#000000	4228
+PlotTitle	 	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
@@ -4626,8 +4626,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>309.52380952381</x>
 <y>294.83870967742</y>
-<right>1011.90476190476</right>
-<bottom>112.903225806452</bottom>
+<right>279.48717948718</right>
+<bottom>245.762711864407</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>
@@ -4673,4 +4673,5 @@ RSS (Summe der quadrierten Restwerte) = 262.315,5342502
 Iterationen = 10
 Status = success
 ---------------------------------------------------------------------------------------
+
 </log>

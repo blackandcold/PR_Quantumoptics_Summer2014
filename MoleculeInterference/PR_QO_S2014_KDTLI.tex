@@ -113,13 +113,45 @@ In order to get the intended result, the whole experiment takes place in vacuum.
 
 The oven itself is a ceramic cylinder which is secluded by a stainless steel top cover and heated by a heating wire. It is used to evapourate the molecules. In our case, it was filled with $C_{60}$ molecules. The apparatus is mounted on a translation stage, thus, the direction of the beam can be moduled in the X/Y axis via joystick.
 In order to get a temporal coherent beam, a velocity selection has to be made. 
-At the beginning of the experiment, the oven is heated up until it has reached a stable temperature of about $620^\circ$. Then, the joystick was used to optimize the countrate.
+At the beginning of the experiment, the oven is heated up until it has reached a stable temperature of about $620^\circ$. Then, the joystick was used to optimize the countrate. After that, the velocity selection can be made.
+
+Since there is no background gas and only gravitation acting on them, the molecules travel along a parabola. To select a specific one, 3 delimiters can be insertet into the beam, which are sufficient due to the fact that a parabola is well defined through 3 points. The width of the delimiters can be modifyed by using Piezo effects, thus apllying voltage. 
+For the actual measurement of the velocity, the so called chopper is used. The chopper is a rotating disc which can be insertet into the beam. All over the chopper, there are certain patterns of openings. When the beam is passing through one of the holes, a signal is sent to the computer which measures the time of flight. By knowing the time and the distance, one can calculate the velocity. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
+At the beginning, the oven was heated until a stable temperature of $628^\circ$. With this temperature, the velocity measurement was taken. Therefore, the three delimiters and the chopper were put into the beam. A software program calculated the time of flight. The distance between the oven and the detector was 1,74m, with this, the following results can be obtained.
+$$v=228,35\pm0,02$$
 
+
+\begin{figure}[H]
+ \centering
+\includegraphics[scale=0.65]{./data/Vel_Spectrum.png}
+\caption{Velocity Spectrum with Gaus Fit}
+\label{fig:Velocity Spectrum}
+\end{figure}
+
+
+To aligne the laser as perfectly as possilbe to the molecule beam, the interference was recorded as function of the light grating height. Maximum visibility was measured at a height of $4,26 mm$.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.65]{./data/LGH.png}
+\caption{Interference as function of the light grating height}
+\label{fig:LGH}
+\end{figure}
+
+
+In the end, the visibility was measured as function of the laser power to get as much visibility as possible.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.65]{./data/Power.png}
+\caption{Interference as functionn of Laserpower}
+\label{fig:Laserpower}
+\end{figure}
 
 
 
