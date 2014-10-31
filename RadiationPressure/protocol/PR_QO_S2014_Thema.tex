@@ -43,6 +43,7 @@
 \begin{multicols}{2}
 
 \begin{abstract}
+\noindent
 In this work we demonstrate that light creates pressure despite the fact that it has no mass. On a oscillator with a length of 1mm we could show a physical displacement of about 10nm which is significant enough to be caused by the radiation other then side effects. Also this shows that a cheap table top experiment is sufficient to show this effect.
 \end{abstract}
 
@@ -115,7 +116,7 @@ High reflectivity is needed because the highest force transfer and therefore pre
 \end{figure}
 \subsection{Dampend driven harmonic oscilliation}
 With a pulsed laser and a previous described cantilever we can build a oscillator that responds to the force of the photons. Because we want to measure a very tiny pressure the cantilever has to be driven by the pulsed laser at the resonance frequency of the oscillator. Due to the fact that we don't cool or evacuate our setup we have a dampening that is overcome by the repeated pulsing of the laser with the resonance frequency.\\
-The calculation of the (mechanical) oscillator is stated in the experimental description \cite{physikwiki}.\\
+The calculation of the (mechanical) oscillator is stated in the experimental description \cite{physikwiki}[p. 3].\\
 Properties of the oscillator are the resonance frequency and the quality factor (taken from \cite{physikwiki}[p. 3-4]).\\
 The quality factor:
 $$Q = \frac{\omega_{0}}{\gamma}$$
@@ -133,20 +134,19 @@ We have a build up table top experiment composed of different components which c
 	\label{fig:setup}
 \end{figure}
 
-\noindent
 \textbf{Parts of the experiment}
 \begin{itemize}
-	\item Pulsed red laser 1064nm approximatly 2mW (left side figure \ref{fig:setup})
-	\item Green laser 532nm build to interferometer (middle figure \ref{fig:setup})
-	\item Beamsplitter to split the green beam (center figure \ref{fig:setup})
+	\item Pulsed red laser 1064nm approximatly 2mW (bottom left figure \ref{fig:setup})
+	\item Green laser 532nm build to interferometer (middle left figure \ref{fig:setup})
+	\item Beamsplitter to split the green beam (middle left figure \ref{fig:setup})
 	\item PS3 cam for laser alignment (right side \ref{fig:setup})
 	\item Quadropol photo diode (sensor) for displacement measurement by 4 photodiodes separated by a tiny gap (right upper figure \ref{fig:setup})
 	\item Speaker for acoustic drive 
-	\item Mirrors and lenses to modify the way of the laser
+	\item Thinkpad for PS3 camera picture and photodiode placement program
+	\item Mirrors and lenses to modify the alignment of the laser
 	\item Paper pieces and protection glasses as the experimentalist's best friends
 	\item Oscilloscope to handle trigger and measure power aswel as displacement (figure \ref{fig:measurement})
 \end{itemize}
-
 
 \textbf{Summary of approach}\\
 We have a chip (figure \ref{fig:cantilever} ) with different cantilever on it. A green laser built into a interferometer is used to observe the motion of the cantilever. Measuring the displacement is done with a quadrant photodiode (sensor). We determine the resonance frequency of different cantilever using acoustic drive by a speaker. This is done be search for the resonance frequency from 500Hz to 3.5kHz. With a PS3 camera the cantilever is focused by the green laser and from the other side from the pulsed red laser. We determine a resonance curve for one cantilever and protocol the phase and normalize the amplitude. Then we calculate the proportional constant (V/m) to get a displacement in meter on the sensor. After focusing both lasers on the cantilever and triggering the pulsed laser on the resonance frequency of the cantilever we can calculate the quality factor, the spring constant using the force of the laser (power-meter) and the full-width half maximum ($\gamma$ factor) of the resonance curve.
@@ -158,11 +158,10 @@ We have a chip (figure \ref{fig:cantilever} ) with different cantilever on it. A
 	\label{fig:measurement}
 \end{figure}
 
-\noindent
 \textbf{How to interpret the measurement}\\
-Now combine the theory from \ref{theory} into one formula with the knowledge about the oscillator in \cite{physikwiki}:
+Now combine the theory from \ref{theory} into one formula with the knowledge about the oscillator in \cite{physikwiki}[p. 3-5]:
 $$\gamma = \frac{D}{m} = \frac{\omega_0}{Q}$$
-From the solution to the harmonic driven dampened oscillator in \cite{physikwiki} we derive a formula for the position:
+From the solution to the harmonic driven dampened oscillator in \cite{physikwiki}[p. 3] we derive a formula for the position:
 $$x_0 = \frac{F_0}{m}  \frac{1}{\sqrt{ (\omega_0^2 - \omega^2 )^2 + \gamma^2  \omega^2}}$$
 Because the interesting point is where $\omega_0 = \omega$ (resonance) we can set that to zero and get
 $$x_0 = \frac{F_0}{m} * \frac{1}{\gamma  \omega}$$
@@ -171,6 +170,7 @@ $$k = \frac{F_0 * Q}{x_0}$$
 for the spring constant.\\
 The $x_0$ is what we measure depending on the intensity of the laser, the displacement on the sensor (figure \ref{fig:sensorsensitivity}), the distance of the beam from cantilever to sensor and the length of the cantilever (resulting in a conversion factor from sensor result to displacement). The length of the cantilever itself was also used but with length one does not contribute much more than it's unit.\\
 
+\noindent
 The interferometer is aligned that with no (or tiny) motion of the cantilever it is possible to see interference of the two rays on the wall. When the cantilever oscillates there is a phase shift which leads to destructive interference and the pattern disappears. This can be seen in figure \ref{fig:pattern}.
 
 \begin{figure}[H]
@@ -206,7 +206,6 @@ The full document and the results contained in a QTI file and a Excel sheet can 
  \label{tab:acoustic_resonance}
 \end{figure}
 
-\noindent
 \textbf{From now on we focus on the cantilever D4}\\
 As described in the theory part we calculated a conversion constant as follows:
 $$C = (7.2 \pm 0.8) \frac{1}{mm}$$
@@ -251,21 +250,25 @@ The length of the cantilever is 1mm.
 	\label{fig:sensorsensitivity}
 \end{figure}
 
+\noindent
 For the laser driven oscillation we get:
-$$k = (29 \pm 1) [\frac{mN}{m}]$$
+$$k = (29 \pm 1) \frac{mN}{m}$$
 $$x = (11 \pm 0.5) nm$$
 with a power of the driving laser of 1.5mW.
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
 For a experiment at room temperature with normal air pressure and costs below \EUR{1000} one can learn and see a lot. \\
+\\
 The alignment process was done fast because the setup of the interferometer was already done. Getting the green and red laser on the cantilever was intuitive using the image of the PS3 camera. \\
+\\
 The acoustic driven measurements where annoying because the frequency for the 1mm cantilever had to be in the area of 1-3.5kHz which is a awful noise.\\
+\\
 The result of some nanometer displacement is in the area of what we were expecting of a 1mm cantilever. Problematic was the right use of the green laser because of the high fluctuations between measurements. Because of that we increased the error that was calculated. Another reason is that about 300$\mu V$ were already background radiation.\\
+\\
 Answering the optional question if we could make the determination of the physical displacement read out with the interferometer better:\\
-No, with a displacement of about 10nm there seems to be no way to be more accurate. It is a really good experiment to learn how to work with lenses, iris, sensor and other optical equipment. The reason is that it is a simple setup with not many elements to adjust.
+No. With a displacement of about 10nm there seems to be no way to be more accurate. It is a really good experiment to learn how to work with lenses, iris, sensor and other optical equipment. The reason is that it is a simple setup with not many elements to adjust.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
