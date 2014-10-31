@@ -134,16 +134,19 @@ We have a build up table top experiment composed of different components which c
 \end{figure}
 
 \noindent
-% TODO ausformulieren und itemize
-Pulsed laser 1064nm approx. 2mW (left side)\\
-Interferometer 532nm ; interference without pulsed laser or far away from resonance frequency; destructive interference with pulsed laser and\\
-PS3 cam to find target (right side)\\
-Quadropol photo diode\\
-upper right power meter or quadrant sensor\\
-speaker for acoustic drive \\
-Mirrors and lenses\\
-beamsplitter\\
-paper pieces\\
+\textbf{Parts of the experiment}
+\begin{itemize}
+	\item Pulsed red laser 1064nm approximatly 2mW (left side figure \ref{fig:setup})
+	\item Green laser 532nm build to interferometer (middle figure \ref{fig:setup})
+	\item Beamsplitter to split the green beam (center figure \ref{fig:setup})
+	\item PS3 cam for laser alignment (right side \ref{fig:setup})
+	\item Quadropol photo diode (sensor) for displacement measurement by 4 photodiodes separated by a tiny gap (right upper figure \ref{fig:setup})
+	\item Speaker for acoustic drive 
+	\item Mirrors and lenses to modify the way of the laser
+	\item Paper pieces and protection glasses as the experimentalist's best friends
+	\item Oscilloscope to handle trigger and measure power aswel as displacement (figure \ref{fig:measurement})
+\end{itemize}
+
 
 \textbf{Summary of approach}\\
 We have a chip (figure \ref{fig:cantilever} ) with different cantilever on it. A green laser built into a interferometer is used to observe the motion of the cantilever. Measuring the displacement is done with a quadrant photodiode (sensor). We determine the resonance frequency of different cantilever using acoustic drive by a speaker. This is done be search for the resonance frequency from 500Hz to 3.5kHz. With a PS3 camera the cantilever is focused by the green laser and from the other side from the pulsed red laser. We determine a resonance curve for one cantilever and protocol the phase and normalize the amplitude. Then we calculate the proportional constant (V/m) to get a displacement in meter on the sensor. After focusing both lasers on the cantilever and triggering the pulsed laser on the resonance frequency of the cantilever we can calculate the quality factor, the spring constant using the force of the laser (power-meter) and the full-width half maximum ($\gamma$ factor) of the resonance curve.
