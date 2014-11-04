@@ -126,48 +126,33 @@ This work is intended to show that entanglement cannot be described in a classic
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
 The full document and the results contained in a QTI file and a Excel sheet can be found under \cite{github}
-\subsection{visibility}
-requirement: $vis > \frac{1}{\sqrt{2}} = 0.707$
+\subsection{Visibility}
+requirement: $vis > \frac{1}{\sqrt{2}} = 0.707$\\
+
 \noindent \textbf{H/V - Basis:}\\
 
-%\begin{figure}[H]
-% \centering
-% \pgfplotstabletypeset[
-% columns={what, value},
-% col sep=&,
-% columns/what/.style={column name=\makecell{$Measurement$}, string type},
-% columns/value/.style={column name=\makecell{$Coincidences$}, precision=0, zerofill},
-% every head row/.style={before row=\hline,after row=\hline\hline},
-% every last row/.style={after row=\hline},
-% every first column/.style={column type/.add={|}{} },
-% every last column/.style={column type/.add={}{|} }
-% ]{
-% what & value
-%$AH, BH$ & 3
-%$AH, BV$ & 55
-%$AH, BH-$ & 5
-%$AH, BV- $& 55
-%$AV, BH$ & 69
-%$AV, BV$ & 1
-%$AV, BH- $& 70
-%$AV, BV-$ & 1
-%
-% }
-% \caption{Messwerte Einzelspalt}
-% \label{tab:werte_einzelspalt}
-%\end{figure}
-
-$Vis_{HV}= (0.918 \pm 0.047) > \frac{1}{\sqrt{2}}$\\
+$V_{HV}= (0.918 \pm 0.047) > \frac{1}{\sqrt{2}}$\\
 \\
 \textbf{X$^+$/X$^-$ - Basis before optimization}\\
 
-$Vis_{X^+ X^- before}=(0.650 \pm 0.087) < \frac{1}{\sqrt{2}}$\\
+$V_{X^+ X^- before}=(0.650 \pm 0.087) < \frac{1}{\sqrt{2}}$\\
 \\
 \textbf{X$^+$/X$^-$ - Basis}\\
 
-$Vis_{X^+ X^- }=(0.843 \pm 0.032) > \frac{1}{\sqrt{2}}$\\
+$V_{X^+ X^- }=(0.843 \pm 0.032) > \frac{1}{\sqrt{2}}$\\
 
-\subsection{Bell-measurements}
+\subsection{Bell-Measurements}
+$E(\alpha, \beta) = (-0.611 \pm 0.036)$\\
+$E(\alpha, \beta ') = (0.765 \pm 0.041)$\\
+$E(\alpha, \beta) = (-0.715\pm 0.038)$\\
+$E(\alpha, \beta) = (-0.500 \pm 0.032)$\\
+
+$$S(\alpha, \alpha ', \beta , \beta ') = (-2.591 \pm 0.074)$$
+
+$$|S| > 2$$\\
+
+\noindent For every single measurement, an \textbf{uncertainty of 5$\%$} was assumed.\\
+The uncertainties of the results are calculated with Gaussian error propagation.
 
 
 
@@ -175,6 +160,25 @@ $Vis_{X^+ X^- }=(0.843 \pm 0.032) > \frac{1}{\sqrt{2}}$\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
+Since we never came as far as to do actual measurements, the discussion will be divided into 2 parts:
+
+\subsection{Execution of the Experiment}
+The first 3 days were spent practicing alignment, learning how to use the equipment and some of the tricks, experimentalists use, so an analysis of possible error sources, improvements as well as things that worked well, is difficult.\\
+From the speed, we picked up on the last day, where it was finally possible to do a reliable pre-alignment and couple the beams into the detector in a reasonable time, one can conclude, that the setup and equipment shouldn't prevent one from executing the experiment.\\
+One possible error that showed up, though, was a mismatch of quality between the 2 detectors. Swapping the signals showed a difference of about a factor of 2. This could be easily accounted for at the stage of the experiment, where we had to end, though.\\
+Especially in a training environment, one has to take into account unclean of faulty optical elements.\\
+Without having finished the experiment and due to our general inexperience in the workings of optics experiments, it is not possible to exactly pinpoint any experimental or equipment errors.
+
+\subsection{Bell-Violation}
+From the data, that was provided, it is possible to violate the CHSH inequality.\\
+For the visibility measurement, the mean was taken of all 4 combinations in each basis, while the uncertainty stems from standard deviation and student-t correction.\\
+The H/V-visibility is clearly greater than $1/\sqrt{2}$ as is the X+/X- visibility after optimizing Bob's BBO.\\
+The X+/X- measurements before though, clearly not suffice the requirement und thus where discarded.\\
+\\
+For the uncertainties of the expectation values $E(\alpha, \beta)$, an error of 5\% was assumed for every single measurement. This seems to be more than enough, since the measurement itself is already an average.\\
+Gaussian error-propagation was assumed for the calculation, leading up to the result for S.\\
+\\
+Since the result clearly violates the inequality, one can conclude, that also a to small assumed error, wouldn't change the outcome (10\% uncertainties lead to a mere $(-2.59 \pm 0.15)$ result and thus still violating the inequality easily).
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
