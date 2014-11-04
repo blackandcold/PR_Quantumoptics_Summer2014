@@ -1,0 +1,169 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	30	4	31.10.14 11:29
+geometry	59	-5	729	401	
+header	1[X]	2[Y]	3[xEr]	4[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	290	324.4	5	5.7
+1	305	335.3	5	2
+2	430	336.76	5	0.79
+3	505	359.8	5	5.2
+4	605	412.8	5	9.5
+5	705	443.9	5	9.6
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	31.10.14 11:31
+geometry	623	16	505	461	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	4	2	493	403
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	distance to fixed mirror (mm)	beam-diameter (micro m)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	Lucida Grande	15	75	0	0	0
+ScaleFont0	Lucida Grande	13	75	0	0	0
+ScaleFont1	Lucida Grande	13	75	0	0	0
+ScaleFont2	Lucida Grande	13	75	0	0	0
+ScaleFont3	Lucida Grande	13	75	0	0	0
+AxisFont0	Lucida Grande	13	50	0	0	0
+AxisFont1	Lucida Grande	13	50	0	0	0
+AxisFont2	Lucida Grande	13	50	0	0	0
+AxisFont3	Lucida Grande	13	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_2	1	0	#000000	0	1	5	1	#000000	#000000	0	#000000	14	0	2	0	0	29	1
+ErrorBars	0	Tabelle1_1	Tabelle1_2	Tabelle1_3	1	8	#000000	1	1	1	0
+ErrorBars	1	Tabelle1_1	Tabelle1_2	Tabelle1_4	1	8	#000000	1	1	1	0
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit2</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>400	800</Range>
+<Points>100</Points>
+<Constant>A	0.405693090783696</Constant>
+<Constant>B	160.619752798302</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	300	500	0	8	5	0	0
+scale	1	300	500	0	8	5	0	0
+scale	2	200	900	0	8	5	0	0
+scale	3	200	900	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>228</x>
+<y>477.57009345794</y>
+<right>475.058823529412</right>
+<bottom>438.940809968847</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(4)%(4)
+
+</Text>
+<Font>Lucida Grande	13	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[31.10.14 11:31	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 4,3000000000000e+02 bis x = 7,0500000000000e+02
+A = 4,0569309078107e-01 +/- 3,2025085884626e-02
+B = 1,6061975279875e+02 +/- 1,8277986325961e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,4069013818182e+01
+R^2 = 0,9876906162205
+Angepasstes R^2 = 0,9630718486614
+RMSE (Standardabweichung) = 6,638449654715
+RSS (Summe der quadrierten Restwerte) = 88,13802763636
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+[31.10.14 11:32	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 4,3000000000000e+02 bis x = 7,0500000000000e+02
+A = 4,0569309078370e-01 +/- 3,2025085867477e-02
+B = 1,6061975279830e+02 +/- 1,8277986318419e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,4069013818182e+01
+R^2 = 0,9876906162205
+Angepasstes R^2 = 0,9630718486614
+RMSE (Standardabweichung) = 6,638449654715
+RSS (Summe der quadrierten Restwerte) = 88,13802763636
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+</log>

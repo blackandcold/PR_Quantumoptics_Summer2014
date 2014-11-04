@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	17
 <table>
 Messung1	30	3	11.09.14 16:41
-geometry	0	494	-1	-1	minimized	
+geometry	784	464	-1	-1	minimized	
 header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
 ColWidth	111	151	242	
 <com>
@@ -24,7 +24,7 @@ WindowLabel	0.29m +- 0.005	2
 </table>
 <table>
 Messung2	30	3	11.09.14 16:56
-geometry	980	518	-1	-1	minimized	
+geometry	588	464	-1	-1	minimized	
 header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
 ColWidth	111	151	242	
 <com>
@@ -45,7 +45,7 @@ WindowLabel	0.305m +- 0.005	2
 </table>
 <table>
 Messung3	30	3	11.09.14 17:07
-geometry	784	518	-1	-1	minimized	
+geometry	392	464	-1	-1	minimized	
 header	Intensität [muW][Y]	Ort [mu m][X]	Intensitätsschwankung [muW][yEr]
 ColWidth	151	111	242	
 <com>
@@ -66,7 +66,7 @@ WindowLabel	0.43m +- 0.005	2
 </table>
 <table>
 Messung4	30	3	11.09.14 17:12
-geometry	588	518	-1	-1	minimized	
+geometry	196	464	-1	-1	minimized	
 header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
 ColWidth	111	151	269	
 <com>
@@ -87,7 +87,7 @@ WindowLabel	0.505m +- 0.005	2
 </table>
 <table>
 Messung5	30	3	11.09.14 17:15
-geometry	392	518	-1	-1	minimized	
+geometry	0	464	-1	-1	minimized	
 header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
 ColWidth	111	151	269	
 <com>
@@ -108,7 +108,7 @@ WindowLabel	0.605m +- 0.005	2
 </table>
 <table>
 Messung6	30	3	11.09.14 17:20
-geometry	196	518	-1	-1	minimized	
+geometry	980	486	-1	-1	minimized	
 header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
 ColWidth	111	151	269	
 <com>
@@ -129,7 +129,7 @@ WindowLabel	0.705m +- 0.005	2
 </table>
 <table>
 MessungVertikal	30	3	11.09.14 17:30
-geometry	0	518	-1	-1	minimized	
+geometry	784	486	-1	-1	minimized	
 header	Ort [mu m][X]	Intensität [muW][Y]	Intensitätsschwankung [muW][yEr]
 ColWidth	111	151	242	
 <com>
@@ -150,7 +150,7 @@ WindowLabel	0.43m +- 0.005	2
 </table>
 <table>
 Strahlgeometrie	30	4	12.09.14 09:51
-geometry	392	494	643	296	minimized	
+geometry	588	486	-1	-1	minimized	
 header	Abstand [m][X]	Halbwertsbreite [mu m][Y]	EHalbwertsbreite[yEr]	EAbstand[xEr]
 ColWidth	100	198	165	122	
 <com>
@@ -163,9 +163,57 @@ WindowLabel		2
 <data>
 </data>
 </table>
+<table>
+Polarisation	30	4	12.09.14 10:19
+geometry	392	486	-1	-1	minimized	
+header	LambdaHalbeWinkel[X]	Intensität [mW][Y]	EIntensität[yEr]	EWinkel[xEr]
+ColWidth	175	143	123	100	
+<com>
+<col nr="3">
+2
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0	0.53	0.01	2
+1	10	0.94	0.03	2
+2	20	1.35	0.01	2
+3	30	1.4	0.01	2
+4	40	1.16	0.01	2
+5	50	0.69	0.01	2
+6	60	0.23	0.01	2
+7	70	0.012	0.01	2
+8	80	0.118	0.002	2
+9	90	0.5	0.01	2
+10				2
+11				2
+12				2
+13				2
+14				2
+15				2
+16				2
+17				2
+18				2
+19				2
+20				2
+21				2
+22				2
+23				2
+24				2
+25				2
+26				2
+27				2
+28				2
+29				2
+</data>
+</table>
 <multiLayer>
 GaussFitMessung1	1	1	11.09.14 16:55
-geometry	980	542	525	461	minimized	
+geometry	980	464	1280	508	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -175,13 +223,10 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	507	398
-<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
 PlotTitle	Titel	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
@@ -191,7 +236,6 @@ AxesTitles	%(?X)	%(?Y)		%(?Y)
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
 TitleFont	Sans	11	75	0	0	0
 ScaleFont0	Sans	9	75	0	0	0
 ScaleFont1	Sans	9	75	0	0	0
@@ -230,8 +274,8 @@ ErrorBars	1	Messung1_Ort [mu m]	Messung1_Intensität [muW]	Messung1_Intensitäts
 <CurveType>0</CurveType>
 <Visible>1</Visible>
 </Function>
-scale	0	0	200	0	5	5	0	0
-scale	1	0	200	0	5	5	0	0
+scale	0	0	200	0	8	5	0	0
+scale	1	0	200	0	8	5	0	0
 scale	2	-200	1200	0	8	5	0	0
 scale	3	-200	1200	0	8	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
@@ -254,11 +298,11 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>-164.91228070175</x>
 <y>193.3110367893</y>
-<right>195.389048991354</right>
-<bottom>172.602739726027</bottom>
+<right>170.909090909091</right>
+<bottom>174.592833876221</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
-<visible>1</visible>
+<visible>0</visible>
 <Text>
 \l(1)%(1)
 \l(3)%(3)
@@ -277,7 +321,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 GaussFitMessung2	1	1	11.09.14 17:05
-geometry	784	542	525	461	minimized	
+geometry	196	486	525	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -287,13 +331,10 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	507	398
-<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
 PlotTitle	Titel	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
@@ -303,7 +344,6 @@ AxesTitles	%(?X)	%(?Y)		%(?Y)
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
 TitleFont	Sans	11	75	0	0	0
 ScaleFont0	Sans	9	75	0	0	0
 ScaleFont1	Sans	9	75	0	0	0
@@ -343,7 +383,7 @@ ErrorBars	1	Messung2_Ort [mu m]	Messung2_Intensität [muW]	Messung2_Intensitäts
 <Visible>1</Visible>
 </Function>
 scale	0	0	250	0	6	5	0	0
-scale	1	0	200	0	5	5	0	0
+scale	1	0	200	0	8	5	0	0
 scale	2	-200	1200	0	8	5	0	0
 scale	3	-200	1200	0	8	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
@@ -366,11 +406,11 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>-164.91228070175</x>
 <y>193.3110367893</y>
-<right>195.389048991354</right>
-<bottom>215.753424657534</bottom>
+<right>170.909090909091</right>
+<bottom>218.241042345277</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
-<visible>1</visible>
+<visible>0</visible>
 <Text>
 \l(1)%(1)
 \l(3)%(3)
@@ -389,7 +429,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 GaussFitMessung3	1	1	11.09.14 17:09
-geometry	588	542	525	461	minimized	
+geometry	588	442	1280	508	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -398,24 +438,20 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	507	398
-<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
-PlotTitle	Titel	#000000	4228
+ggeometry	5	4	507	398
+PlotTitle	 	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
+EnabledAxes	1	0	1	0	
+AxesTitles	slit-position (micro m)	Intensity (micro W)		%(?Y)	
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
 TitleFont	Sans	11	75	0	0	0
 ScaleFont0	Sans	9	75	0	0	0
 ScaleFont1	Sans	9	75	0	0	0
@@ -429,7 +465,7 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	Messung3_Ort [mu m]	Messung3_Intensität [muW]	1	0	#000000	0	1	3	1	#000000	#000000	0	#000000	14	0.5	2	0	0	29	1
+curve	Messung3_Ort [mu m]	Messung3_Intensität [muW]	1	0	#000000	0	1	3	1	#000000	#000000	0	#000000	14	0	2	0	0	29	1
 ErrorBars	1	Messung3_Ort [mu m]	Messung3_Intensität [muW]	Messung3_Intensitätsschwankung [muW]	1	8	#000000	1	1	1	0
 <Function>
 <Type>0</Type>
@@ -476,15 +512,15 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>-164.91228070175</x>
-<y>241.63879598662</y>
-<right>195.389048991354</right>
-<bottom>215.753424657534</bottom>
+<x>-163.07692307692</x>
+<y>226.11940298507</y>
+<right>132.093023255814</right>
+<bottom>220.364741641337</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
-<visible>1</visible>
+<visible>0</visible>
 <Text>
-\l(1)%(1)
+
 \l(3)%(3)
 </Text>
 <Font>Sans	9	50	0	0	0</Font>
@@ -501,7 +537,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 GaussFitMessung4	1	1	11.09.14 17:14
-geometry	392	542	525	461	minimized	
+geometry	392	442	1280	508	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -511,13 +547,10 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	507	398
-<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
 PlotTitle	Titel	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
@@ -527,7 +560,6 @@ AxesTitles	%(?X)	%(?Y)		%(?Y)
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
 TitleFont	Sans	11	75	0	0	0
 ScaleFont0	Sans	9	75	0	0	0
 ScaleFont1	Sans	9	75	0	0	0
@@ -590,11 +622,11 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>-164.91228070175</x>
 <y>241.63879598662</y>
-<right>195.389048991354</right>
-<bottom>215.753424657534</bottom>
+<right>170.909090909091</right>
+<bottom>218.241042345277</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
-<visible>1</visible>
+<visible>0</visible>
 <Text>
 \l(1)%(1)
 \l(3)%(3)
@@ -613,7 +645,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 GaussFitMessung5	1	1	11.09.14 17:19
-geometry	196	542	525	461	minimized	
+geometry	196	442	1280	508	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -623,13 +655,10 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	507	398
-<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
 PlotTitle	Titel	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
@@ -639,7 +668,6 @@ AxesTitles	%(?X)	%(?Y)		%(?Y)
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
 TitleFont	Sans	11	75	0	0	0
 ScaleFont0	Sans	9	75	0	0	0
 ScaleFont1	Sans	9	75	0	0	0
@@ -678,7 +706,7 @@ ErrorBars	1	Messung5_Ort [mu m]	Messung5_Intensität [muW]	Messung5_Intensitäts
 <CurveType>0</CurveType>
 <Visible>1</Visible>
 </Function>
-scale	0	0	200	0	5	5	0	0
+scale	0	0	200	0	8	5	0	0
 scale	1	0	160	0	9	5	0	0
 scale	2	-200	1400	0	9	5	0	0
 scale	3	-200	1400	0	9	5	0	0
@@ -702,11 +730,11 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>-159.89974937343</x>
 <y>154.64882943144</y>
-<right>251.873198847262</right>
-<bottom>172.602739726027</bottom>
+<right>223.896103896104</right>
+<bottom>174.592833876221</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
-<visible>1</visible>
+<visible>0</visible>
 <Text>
 \l(1)%(1)
 \l(3)%(3)
@@ -725,7 +753,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 GaussFitMessung6	1	1	11.09.14 17:22
-geometry	0	542	525	461	minimized	
+geometry	0	442	1280	508	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -735,13 +763,10 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	507	398
-<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
 PlotTitle	Titel	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
@@ -751,7 +776,6 @@ AxesTitles	%(?X)	%(?Y)		%(?Y)
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
 TitleFont	Sans	11	75	0	0	0
 ScaleFont0	Sans	9	75	0	0	0
 ScaleFont1	Sans	9	75	0	0	0
@@ -790,8 +814,8 @@ ErrorBars	1	Messung6_Ort [mu m]	Messung6_Intensität [muW]	Messung6_Intensitäts
 <CurveType>0</CurveType>
 <Visible>1</Visible>
 </Function>
-scale	0	0	200	0	5	5	0	0
-scale	1	0	200	0	5	5	0	0
+scale	0	0	200	0	8	5	0	0
+scale	1	0	200	0	8	5	0	0
 scale	2	-200	1600	0	10	5	0	0
 scale	3	-200	1600	0	10	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
@@ -814,11 +838,11 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>-154.88721804511</x>
 <y>193.3110367893</y>
-<right>308.35734870317</right>
-<bottom>172.602739726027</bottom>
+<right>276.883116883117</right>
+<bottom>174.592833876221</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
-<visible>1</visible>
+<visible>0</visible>
 <Text>
 \l(1)%(1)
 \l(3)%(3)
@@ -837,7 +861,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 GaussFitVertikal	1	1	11.09.14 17:34
-geometry	196	494	525	461	minimized	
+geometry	784	442	1280	508	minimized	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -846,38 +870,34 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	507	398
-<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
-PlotTitle	Titel	#000000	4228
+ggeometry	17	2	507	438
+PlotTitle	 	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
+EnabledAxes	1	0	1	0	
+AxesTitles	slit-position (micro m)	Intensity (micro W)		%(?Y)	
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	Sans	15	75	0	0	0
+ScaleFont0	Sans	13	75	0	0	0
+ScaleFont1	Sans	13	75	0	0	0
+ScaleFont2	Sans	13	75	0	0	0
+ScaleFont3	Sans	13	75	0	0	0
+AxisFont0	Sans	13	50	0	0	0
+AxisFont1	Sans	13	50	0	0	0
+AxisFont2	Sans	13	50	0	0	0
+AxisFont3	Sans	13	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	MessungVertikal_Ort [mu m]	MessungVertikal_Intensität [muW]	1	0	#000000	0	1	3	1	#000000	#000000	0	#000000	14	0.5	2	0	0	29	1
+curve	MessungVertikal_Ort [mu m]	MessungVertikal_Intensität [muW]	1	0	#000000	0	1	3	1	#000000	#000000	0	#000000	14	0	2	0	0	29	1
 ErrorBars	1	MessungVertikal_Ort [mu m]	MessungVertikal_Intensität [muW]	MessungVertikal_Intensitätsschwankung [muW]	1	8	#000000	1	1	1	0
 <Function>
 <Type>0</Type>
@@ -902,8 +922,8 @@ ErrorBars	1	MessungVertikal_Ort [mu m]	MessungVertikal_Intensität [muW]	Messung
 <CurveType>0</CurveType>
 <Visible>1</Visible>
 </Function>
-scale	0	0	200	0	5	5	0	0
-scale	1	0	200	0	5	5	0	0
+scale	0	0	200	0	8	5	0	0
+scale	1	0	200	0	8	5	0	0
 scale	2	-200	1200	0	8	5	0	0
 scale	3	-200	1200	0	8	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
@@ -924,18 +944,18 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>-164.91228070175</x>
-<y>193.3110367893</y>
-<right>195.389048991354</right>
-<bottom>172.602739726027</bottom>
+<x>-165.51724137931</x>
+<y>193.52941176471</y>
+<right>125.118483412322</right>
+<bottom>179.005524861878</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
-<visible>1</visible>
+<visible>0</visible>
 <Text>
-\l(1)%(1)
+
 \l(3)%(3)
 </Text>
-<Font>Sans	9	50	0	0	0</Font>
+<Font>Sans	13	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -947,57 +967,9 @@ EnabledTickLabels	1	1	1	1
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
-<table>
-Polarisation	30	4	12.09.14 10:19
-geometry	588	494	625	440	minimized	
-header	LambdaHalbeWinkel[X]	Intensität [mW][Y]	EIntensität[yEr]	EWinkel[xEr]
-ColWidth	175	143	123	100	
-<com>
-<col nr="3">
-2
-</col>
-</com>
-ColType	0;0/13	0;0/13	0;0/13	0;0/13
-ReadOnlyColumn	0	0	0	0
-HiddenColumn	0	0	0	0
-Comments					
-WindowLabel		2
-<data>
-0	0	0.53	0.01	2
-1	10	0.94	0.03	2
-2	20	1.35	0.01	2
-3	30	1.4	0.01	2
-4	40	1.16	0.01	2
-5	50	0.69	0.01	2
-6	60	0.23	0.01	2
-7	70	0.012	0.01	2
-8	80	0.118	0.002	2
-9	90	0.5	0.01	2
-10				2
-11				2
-12				2
-13				2
-14				2
-15				2
-16				2
-17				2
-18				2
-19				2
-20				2
-21				2
-22				2
-23				2
-24				2
-25				2
-26				2
-27				2
-28				2
-29				2
-</data>
-</table>
 <multiLayer>
 GraphPolarisation	1	1	12.09.14 11:18
-geometry	784	494	550	485	minimized	active
+geometry	0	486	550	485	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1007,13 +979,10 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	532	422
-<PageGeometry>0.00922509	0.0114416	0.98155	0.965675</PageGeometry>
 PlotTitle	Titel	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
@@ -1023,7 +992,6 @@ AxesTitles	%(?X)	%(?Y)		%(?Y)
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
 TitleFont	Sans	12	75	0	0	0
 ScaleFont0	Sans	10	75	0	0	0
 ScaleFont1	Sans	10	75	0	0	0
@@ -1064,11 +1032,11 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>-16.992481203008</x>
 <y>1.5397993311037</y>
-<right>12.781954887218</right>
-<bottom>1.36521739130435</bottom>
+<right>10</right>
+<bottom>1.3859756097561</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
-<visible>1</visible>
+<visible>0</visible>
 <Text>
 \l(1)%(1)
 </Text>
@@ -1238,6 +1206,8 @@ RSS (Summe der quadrierten Restwerte) = 5,123006922459
 Iterationen = 7
 Status = success
 ---------------------------------------------------------------------------------------
+
+
 
 
 </log>

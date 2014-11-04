@@ -1,0 +1,293 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	3
+<table>
+Tabelle1	30	2	31.10.14 15:08
+geometry	4	11	617	403	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+<col nr="0">
+col("1")/0.0004
+</col>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	0.4	0
+1	0.8	0
+2	1.2	1
+3	1.6	2
+4	2	4
+5	2.4	7
+6	2.8	17
+7	3.2	56
+8	3.6	178
+9	4	164
+10	4.4	38
+11	4.8	15
+12	5.2	6
+13	5.6	3
+14	6	2
+15	6.4	0
+16	6.8	0
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	31.10.14 15:10
+geometry	617	0	509	461	hidden
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	497	403
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	Lucida Grande	15	75	0	0	0
+ScaleFont0	Lucida Grande	13	75	0	0	0
+ScaleFont1	Lucida Grande	13	75	0	0	0
+ScaleFont2	Lucida Grande	13	75	0	0	0
+ScaleFont3	Lucida Grande	13	75	0	0	0
+AxisFont0	Lucida Grande	13	50	0	0	0
+AxisFont1	Lucida Grande	13	50	0	0	0
+AxisFont2	Lucida Grande	13	50	0	0	0
+AxisFont3	Lucida Grande	13	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_2	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>0.4	6.8</Range>
+<Points>100</Points>
+<Constant>A	173.065442733018</Constant>
+<Constant>w	0.700638908341565</Constant>
+<Constant>xc	3.7683736021923</Constant>
+<Constant>y0	3.54921149331522</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-50	250	0	8	5	0	0
+scale	1	-50	200	0	8	5	0	0
+scale	2	0	7	0	8	5	0	0
+scale	3	0	7	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.17543859649123</x>
+<y>191.63879598662</y>
+<right>1.91228070175439</right>
+<bottom>167.391304347826</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>0</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Lucida Grande	13	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Grafik2	1	1	31.10.14 15:11
+geometry	638	10	509	461	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	497	403
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	timescale on oscilloscope (ms)	intensity (mV)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	Lucida Grande	15	75	0	0	0
+ScaleFont0	Lucida Grande	13	75	0	0	0
+ScaleFont1	Lucida Grande	13	75	0	0	0
+ScaleFont2	Lucida Grande	13	75	0	0	0
+ScaleFont3	Lucida Grande	13	75	0	0	0
+AxisFont0	Lucida Grande	13	50	0	0	0
+AxisFont1	Lucida Grande	13	50	0	0	0
+AxisFont2	Lucida Grande	13	50	0	0	0
+AxisFont3	Lucida Grande	13	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_2	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>0.4	6.8</Range>
+<Points>100</Points>
+<Constant>A	173.065442733018</Constant>
+<Constant>w	0.700638908341565</Constant>
+<Constant>xc	3.7683736021923</Constant>
+<Constant>y0	3.54921149331522</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-50	250	0	8	5	0	0
+scale	1	-50	200	0	8	5	0	0
+scale	2	0	7	0	8	5	0	0
+scale	3	0	7	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.17543859649123</x>
+<y>191.63879598662</y>
+<right>1.91228070175439</right>
+<bottom>167.391304347826</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Lucida Grande	13	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[31.10.14 15:10	Diagramm: ''Grafik1'']
+Gauß-Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 4,0000000000000e-01 bis x = 6,8000000000000e+00
+A (Fläche) = 1,7306544273302e+02 +/- 4,6406386540045e+00
+xc (Mitte) = 3,7683736021923e+00 +/- 9,0678964860544e-03
+w (Breite) = 7,0063890834157e-01 +/- 2,0231506932151e-02
+y0 (Offset) = 3,5492114933152e+00 +/- 1,2917982940204e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,0451005293432e+01
+R^2 = 0,9946285948599
+Angepasstes R^2 = 0,9928381264799
+RMSE (Standardabweichung) = 4,522278772194
+RSS (Summe der quadrierten Restwerte) = 265,8630688146
+---------------------------------------------------------------------------------------
+Iterationen = 12
+Status = success
+---------------------------------------------------------------------------------------
+[31.10.14 15:11	Diagramm: ''Grafik2'']
+Gauß-Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 4,0000000000000e-01 bis x = 6,8000000000000e+00
+A (Fläche) = 1,7306544273302e+02 +/- 4,6406386540045e+00
+xc (Mitte) = 3,7683736021923e+00 +/- 9,0678964860544e-03
+w (Breite) = 7,0063890834157e-01 +/- 2,0231506932151e-02
+y0 (Offset) = 3,5492114933152e+00 +/- 1,2917982940204e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,0451005293432e+01
+R^2 = 0,9946285948599
+Angepasstes R^2 = 0,9928381264799
+RMSE (Standardabweichung) = 4,522278772194
+RSS (Summe der quadrierten Restwerte) = 265,8630688146
+---------------------------------------------------------------------------------------
+Iterationen = 12
+Status = success
+---------------------------------------------------------------------------------------
+</log>
