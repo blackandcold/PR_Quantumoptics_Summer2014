@@ -124,16 +124,32 @@ Using the $|\Psi^{-}\rangle$-state (realized by spin-1/2 particles as imagined b
 John Clauser \textit{et al} developed a version of the Bell-equation, that can be performed in a real experimental setup (Bell's idea relies on a 'perfect' error-free setup).\\
 The CHSH-setup tests reality and locality through statistical results, rather than exact measurements of single-runs of the experiment.\\
 $E(\alpha, \beta)$ is the expectation value of a 2-qubit-state measured along parameters (e.g. angles) $\alpha$ and $\beta$.\\
-Using different configurations for $\alpha$ and $\beta$, the Bell parameter is derived:
+Using different configurations for $\alpha$ and $\beta$, the Bell parameter S is derived:
 $$S(\alpha, \alpha', \beta, \beta') = E(\alpha, \beta) - $$
 $$-E(\alpha, \beta') + E(\alpha', \beta) + E(\alpha', \beta')$$
 \\
-where:  $-2 \le S \le 2$
+where:  $-2 \le S \le 2$\\
+\\
+The greatest violation (S = $2 \sqrt{2}$) can be achieved by a parameter-setting of:\\
+$\alpha = 0$,  $\beta = \pi / 4$\\
+$\alpha' = \pi/2$; $\beta' = 3\pi/4$\\
+\\
+To get the expectation values $E(\alpha, \beta)$ in the actual experiment, their relation to the observed photon coincidence count-rate $N(\alpha, \beta)$ and their orthogonal angles $N(\alpha_{\bot}, \beta_{ \bot})$:
+$$E(\alpha, \beta) = \frac{N_{\alpha, \beta} + N_{\alpha\bot, \beta\bot}-N_{\alpha, \beta\bot}-N_{\alpha\bot, \beta}}{N_{\alpha, \beta} + N_{\alpha\bot, \beta\bot}+N_{\alpha, \beta\bot}+N_{\alpha\bot, \beta}}$$
 
-\subsection{SPDC}
-% include bifringe
+\noindent To calculate S, 16 combinations of measurements of $\alpha, \alpha', \beta, \beta'$ and their orthogonal angles, are needed.
 
 \subsection{Visibility}
+Before one can use the photon-coincidence count rates and calculate S, classical explanations for coincidences have to be ruled out and entanglement of the photons has to be checked: A visibility > 1/$\sqrt{2}$ is necessary to violate the Bell inequality and simultaneously rules out classical descriptions.\\
+The visibility can be measured by fixing the polarization-angle on one side and measuring coincidence counts for different polarization-angles of the other detector-arm (from 0 to 2$\pi$).\\
+The resulting points are fit through a sinusoid to obtain maxima and minima of the curve. The visibility is calculated by:
+$$V = \frac{N_{max}(\alpha, \beta) - N_{min}(\alpha, \beta)}{N_{max}(\alpha, \beta) + N_{min}(\alpha, \beta)}$$
+
+\subsection{SPDC}
+\label{SPDC}
+% include bifringe
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -223,8 +239,9 @@ Since we never came as far as to do actual measurements, the discussion will be 
 The first 3 days were spent practicing alignment, learning how to use the equipment and some of the tricks, experimentalists use, so an analysis of possible error sources, improvements as well as things that worked well, is difficult.\\
 From the speed, we picked up on the last day, where it was finally possible to do a reliable pre-alignment and couple the beams into the detector in a reasonable time, one can conclude, that the setup and equipment shouldn't prevent one from executing the experiment.\\
 One possible error that showed up, though, was a mismatch of quality between the 2 detectors. Swapping the signals showed a difference of about a factor of 2. This could be easily accounted for at the stage of the experiment, where we had to end, though.\\
+Another difficulty is, that the 4 degrees of freedom on both detector arms are neither totally uncorrelated nor do they seem to provide exact horizontal or vertical translation (or the 2 photon-cones of the SPDC are not totally parallel to the base-breadboard). That leads to increasing difficulty while searching the optimal position for maximum signal while measuring photons from both cones.\\
 Especially in a training environment, one has to take into account unclean of faulty optical elements.\\
-Without having finished the experiment and due to our general inexperience in the workings of optics experiments, it is not possible to exactly pinpoint any experimental or equipment errors.
+Without having finished the experiment it is not possible to exactly pinpoint any experimental or equipment errors. Even for this rather simple setup though, some knowledge and experience with optical elements, their quirks and problems and effects that complicate the setup is need. More so because of the invisible and low intensity beams, that have to be detected.\\
 
 \subsection{Bell-Violation}
 From the data, that was provided, it is possible to violate the CHSH inequality.\\
