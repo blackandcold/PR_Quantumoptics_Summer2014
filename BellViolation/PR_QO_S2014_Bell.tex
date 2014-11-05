@@ -39,12 +39,18 @@
 \input{title.tex}
 %%%%%%% DECKBLATT ENDE %%%%%%%
 \pagebreak
-\setlength{\columnsep}{20pt}
-\begin{multicols}{2}
+
 
 \begin{abstract}
+\noindent Goal of the experiment was a violation of the CHSH-Bell-inequality by using the process of spontaneous parametric down-conversion (SPDC) to create entangled photons. Even though the experiment was not successfully completed, the experimental setup is shown as well as problems during execution. Also the calculations for violating the inequality are done with data from another group's experiment.\\
+\\
+\\
 
 \end{abstract}
+
+
+\setlength{\columnsep}{20pt}
+\begin{multicols}{2}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{figure}[H]
@@ -83,16 +89,44 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Bell's Inequality}
-This work is intended to show that entanglement cannot be described in a classical way. It was the work of J.S. Bell based on the paper of Einstein, Podolsky and Rosen (EPR). With the CHSH-Bell inequality it became possible to do a (rather) simple experiment with photons. In the next sections the theory will be explained as well as the experimental assembly and the results. Finally we will discuss the outcome.
+This work is intended to show that entanglement cannot be described in a classical way. It was the work of J.S. Bell based on the paper of Einstein, Podolsky and Rosen (EPR). With the CHSH-Bell inequality it became possible to do a rather simple experiment with photons.\\
+The purpose of Bell-type experiments is to find clues, wether nature behaves in a quantum mechanical sense, or QM is an incomplete theory, where hidden variables would lead to a complete theory restoring some properties, similar to our macroscopic experience, namely  reality and locality (as EPR proposed).\\
+\\
+\textbf{Reality:}\\ The properties of every object, even of atoms or sub-atomic particles, are real and measurable (in principle) at every time (no quantum-state superpositions).\\
+\textbf{Locality:}\\
+Information obtained by some measurement cannot influence the outcome of another measurement while having to travel faster than light.\\
+\\
+Bell-Experiments provide the fascinating possibility to test such rather philosophical ideas by performing actual measurements.
+
+%In the next sections the theory will be explained as well as the experimental assembly and the results. Finally we will discuss the outcome.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Theory}
 \label{theory}
 
-\subsection{Entanglement}
+\subsection{Entanglement and the \\ Inequality}
+The EPR paradox is based on entangled states, meaning quantum mechanical states of 2 (or more) subsystems, that cannot be written as tensor products of 2 states. In this experiment 2-qubit-states are used of which the basis are the 4 Bell-states:
+$$|\Psi^{\pm}\rangle = \frac{1}{\sqrt{2}}(|0\rangle_A|1\rangle_B \pm |1\rangle_A|0\rangle_B)$$
+$$|\Phi^{\pm}\rangle = \frac{1}{\sqrt{2}}(|0\rangle_A|0\rangle_B \pm |1\rangle_A|1\rangle_B)$$
+
+\noindent Where A and B (typically called "Alice and Bob") denote the 2 subsystems.\\
+Using the $|\Psi^{-}\rangle$-state (realized by spin-1/2 particles as imagined by Bell or by H/V-polarized photons as in this experiment) the subsystems are anti-correlated, meaning that a measurement by Alice resulting in H-polarization, leads to the Bob-particle being V, no matter how far apart. Not violating reality or locality, this can only be achieved by adding some hidden variable $\lambda$ to the picture.\\
+
+
+
+%TODO: Herleitung bell inequality
+
 
 \subsection{CHSH-Bell Inequallity}
+John Clauser \textit{et al} developed a version of the Bell-equation, that can be performed in a real experimental setup (Bell's idea relies on a 'perfect' error-free setup).\\
+The CHSH-setup tests reality and locality through statistical results, rather than exact measurements of single-runs of the experiment.\\
+$E(\alpha, \beta)$ is the expectation value of a 2-qubit-state measured along parameters (e.g. angles) $\alpha$ and $\beta$.\\
+Using different configurations for $\alpha$ and $\beta$, the Bell parameter is derived:
+$$S(\alpha, \alpha', \beta, \beta') = E(\alpha, \beta) - $$
+$$-E(\alpha, \beta') + E(\alpha', \beta) + E(\alpha', \beta')$$
+\\
+where:  $-2 \le S \le 2$
 
 \subsection{Loopholes}
 
