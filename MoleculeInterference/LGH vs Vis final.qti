@@ -1,0 +1,136 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	4522	2	30.10.2014 14:51:56
+geometry	0	0	445	220	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	4	2.5
+1	4.5	3.4
+2	4.4	7.4
+3	4.35	9.1
+4	4.3	8.6
+5	4.25	10.5
+6	4.2	9.2
+7	4.15	6.7
+8	4.1	5.3
+9	4.22	8.2
+10	4.27	10.1
+11	4.26	11.6
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	30.10.2014 14:59:55
+geometry	445	0	492	463	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	466	394
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	light grating height [mm]	Visibility [%]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_2	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	4521	1
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>4	4.5</Range>
+<Points>100</Points>
+<Constant>A	2.91377702769193</Constant>
+<Constant>w	0.266938307559516</Constant>
+<Constant>xc	4.27632306004197</Constant>
+<Constant>y0	1.43880847266306</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	2	12	0	8	5	0	0
+scale	1	2	12	0	8	5	0	0
+scale	2	3.9	4.6	0	8	5	0	0
+scale	3	3.9	4.6	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[30.10.2014 15:00:44	Diagramm: ''Grafik1'']
+Gauß-Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 4,0000000000000e+00 bis x = 4,2600000000000e+00
+A (Fläche) = 2,9137770276919e+00 +/- 1,3034399173194e+00
+xc (Mitte) = 4,2763230600420e+00 +/- 1,1183849539608e-02
+w (Breite) = 2,6693830755952e-01 +/- 6,5332115841527e-02
+y0 (Offset) = 1,4388084726631e+00 +/- 2,0132505985626e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 8,0598679204352e-01
+R^2 = 0,9254205073484
+Angepasstes R^2 = 0,8828036544046
+RMSE (Standardabweichung) = 0,8977676715295
+RSS (Summe der quadrierten Restwerte) = 6,447894336348
+---------------------------------------------------------------------------------------
+Iterationen = 4
+Status = success
+---------------------------------------------------------------------------------------
+
+</log>

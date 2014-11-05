@@ -88,7 +88,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Bell's Inequality}
+\section{Bell Inequality}
 This work is intended to show that entanglement cannot be described in a classical way. It was the work of J.S. Bell based on the paper of Einstein, Podolsky and Rosen (EPR). With the CHSH-Bell inequality it became possible to do a rather simple experiment with photons.\\
 The purpose of Bell-type experiments is to find clues, wether nature behaves in a quantum mechanical sense, or QM is an incomplete theory, where hidden variables would lead to a complete theory restoring some properties, similar to our macroscopic experience, namely  reality and locality (as EPR proposed).\\
 \\
@@ -114,11 +114,10 @@ $$|\Phi^{\pm}\rangle = \frac{1}{\sqrt{2}}(|0\rangle_A|0\rangle_B \pm |1\rangle_A
 
 \noindent Where A and B (typically called "Alice and Bob") denote the 2 subsystems.\\
 Using the $|\Psi^{-}\rangle$-state (realized by spin-1/2 particles as imagined by Bell or by H/V-polarized photons as in this experiment) the subsystems are anti-correlated, meaning that a measurement by Alice resulting in H-polarization, leads to the Bob-particle being V, no matter how far apart. Not violating reality or locality, this can only be achieved by adding some hidden variable $\lambda$ to the picture.\\
-
-
-
-%TODO: Herleitung bell inequality
-
+\\
+\textbf{Bell's Inequality}\\
+John Bell proposed a inequality assuming that every mean of measurement values has a bound value. This inequality is satisfied for systems based on realism and locality. This assumes that the outcome of experiments are "known beforehand" (except a hidden variable $\rightarrow$ CHSH). This means if one measures a correlated event of a system in two different detectors $\alpha$ and $\beta$ ("one or the other") the expectation value is deterministic.\\
+Due to the fact that it is not possible to build perfect experiments CHSH further modified the inequality as shown in the next section.
 
 \subsection{CHSH-Bell Inequallity}
 John Clauser \textit{et al} developed a version of the Bell-equation, that can be performed in a real experimental setup (Bell's idea relies on a 'perfect' error-free setup).\\
@@ -166,23 +165,28 @@ Since the paths of both photons are somewhat different in length, additional BBO
 \section{Experimental assembly}
 
 \subsection{Build}
-In the following figure, a sketch of the primary alignment is shown. The goal is, to send a laser beam through a BBO, which will then create single photons propagating along the so called pump beam. This pump beam is then focused into the detection system.
-(insert alignment picture)
+In the following figure, a sketch of the primary alignment is shown. The goal is, to send a laser beam through a BBO, which will then create single photons. The propagating entangled photons are impingin on the detector where coincidences can be observed.
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.5]{./figures/Aufbau_Marion.png}
+ \caption{Experimental setup (Ref. \cite{protmarion})}
+ \label{fig:setup}
+\end{figure}
 
 \subsection{Alignment}
 
-In this experiment, a laser with wavelength of 405nm is used. The power can be determind on a computer and is variable between 1mW and 50 mW. For aligning purposes, the power is usually set to approximately 2-5mW, for the measurement, the full power of 50mW is helpful. 
-The laserbeam is  focused on the BBO, using 2 mirrors. To make sure it is as exactly hitting the BBO as possible, a lense with a focal length of 25 cm is placed in between. Using the available irises helps to increase accuracy. The BBO is absolutely necessary since there the spontaneaous parametric down-conversion (SPDC) takes place, which is the source of the entangled photons. (reference to the theory part)
+
+In this experiment, a Laser with wavelength of 405nm is used. The power can be determind on a computer and is variable between 1mW and 50 mW. For aligning purposes, the power is usually set to approximately 2-5mW, for the measurement, the full power of 50mW is helpful. 
+
+The laserbeam is  focused on the BBO, using 2 mirrors. To make sure it is as exactly hitting the BBO as possible, a lense with a focal length of 25 cm is placed in between. Using the available irises helps to increase accuracy. The BBO is absolutely necessary since there the spontaneaous parametric down-conversion (SPDC) takes place, which is the source of the entangled photons,for further information go to \ref{SPDC}. 
 
  Behind the BBO, one now has 2 cones, one of them e-polarized (extraordinary) and the other o-polarized (ordinary). (reference to figure). Between the pump beam and the interception point of the cones, there is an angle of $3^\circ$. To come up with coincidences it is  necessary to locate the signal and the interception points respectivley. Therefore, the way the two beams take, have to be symmetric. Since the beams are not visible, it is hard to align them perfectly. To get rid of this problem, laserpointers are used. They are plugged into the fibre cables of the detector and sent in the reverse direction. Now, the visible red dots can be aligned more easily.
+ 
  
  After passing the two prisms, one has practically two seperate arms. According to the previous paragraph, these two arms should be symmetric. In the way of the beam, a second BBO with half width and a polarizer can be placed. The second BBO (in combination with the halfwaveplate) is needed to make sure that the photons arrive at the same time. This is necessary because the photons emitted along the ordinary beam are faster. In the end, the beam should imping on the detector precisly to get as much counts as possible. The detector itself is placed on a translation stage, leaving 4 degrees of freedom, 2 spatially and 2 angles. It is important to take care that the room is dark when the detector is switched on due to the fact that it is highly sensitive to light and could get damaged by to much light.
  
  As mentioned before, the aim is to get to the interception points. To get these points, the second BBO is not needed, instead, a polarizer is inserted into the beam. Now, one measures the count as function of the polarization. Here, the primal goal is to get $50\%$ horizontal and $50\%$ vertical polarization. To get there, the detector is moved through the beam. By observing the count rate, it is possible to scan the cones up and down to get to the favored position. Afterwards, the cones are scanned left and right to find the local maximum. This should now be the interception point.
  
- 
-
-
 
 
 \begin{figure}[H]
@@ -260,7 +264,7 @@ Since the result clearly violates the inequality, one can conclude, that also a 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\bibliography{protocol.bib}
+\bibliography{./protocol}
 \bibliographystyle{plain}
 
 \end{multicols}

@@ -1,0 +1,212 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	4522	2	30.10.2014 15:17:43
+geometry	-1	-1	331	475	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	50000	1119
+1	50026	1278
+2	50052	1409
+3	50078	1553
+4	50104	1489
+5	50130	1327
+6	50156	1175
+7	50182	1033
+8	50208	1029
+9	50234	1010
+10	50260	1147
+11	50286	1322
+12	50312	1502
+13	50338	1410
+14	50364	1362
+15	50390	1328
+16	50416	1146
+17	50442	992
+18	50468	929
+19	50494	963
+20	50520	1055
+21	50546	1237
+22	50572	1402
+23	50598	1525
+24	50624	1540
+25	50650	1488
+26	50676	1263
+27	50702	1024
+28	50728	993
+29	50754	936
+30	50780	1080
+31	50806	1336
+32	50832	1513
+33	50858	1537
+34	50884	1554
+35	50910	1347
+36	50936	1278
+37	50962	993
+38	50988	1008
+39	51014	881
+40	51040	1014
+41	51066	1152
+42		1540
+43	50650	1488
+44	50676	1263
+45	50702	1024
+46	50728	993
+47	50754	936
+48	50780	1080
+49	50806	1336
+50	50832	1513
+51	50858	1537
+52	50884	1554
+53	50910	1347
+54	50936	1278
+55	50962	993
+56	50988	1008
+57	51014	881
+58	51040	1014
+59	51066	1152
+</data>
+</table>
+<multiLayer>
+Grafik2	1	1	30.10.2014 15:21:17
+geometry	427	11	533	420	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	3	-8	506	353
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	 	countrate<br>			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	9	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	7	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	7	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	7	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	7	75	0	0	0
+AxisFont0	MS Shell Dlg 2	7	50	0	0	0
+AxisFont1	MS Shell Dlg 2	7	50	0	0	0
+AxisFont2	MS Shell Dlg 2	7	50	0	0	0
+AxisFont3	MS Shell Dlg 2	7	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_2	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	4521	1
+<Function>
+<Type>0</Type>
+<Title>Benutzer1Fit1</Title>
+<Expression>A*sin(x/f+phi)+B</Expression>
+<Variable>x</Variable>
+<Range>50000	51066</Range>
+<Points>100</Points>
+<Constant>A	299.175546382704</Constant>
+<Constant>B	1236.50442365508</Constant>
+<Constant>f	41.966753184042</Constant>
+<Constant>phi	39.7573075653514</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	800	1600	0	8	5	0	0
+scale	1	800	1600	0	8	5	0	0
+scale	2	49800	51200	0	8	5	0	0
+scale	3	49800	51200	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>49817.594254937</x>
+<y>1104.1825095057</y>
+<right>50056.0636182903</right>
+<bottom>1473.51778656126</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+<b>Fkt</b>: A*sin(x/f+phi)+B
+<b>A</b> = 299,17 +/- 0,18
+<b>B</b> = 1236,50 +/- 0,13
+<b>f</b> = 41,96 +/- 3,3e-03
+<b>phi</b> = 39,75 +/-0,0 95
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[30.10.2014 19:26:38	Diagramm: ''Grafik2'']
+Nichtlinearer Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*sin(x/f+phi)+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 5,0000000000000e+04 bis x = 5,1066000000000e+04
+A = 2,9917554638270e+02 +/- 1,8886407342111e-01
+B = 1,2365044236551e+03 +/- 1,3054763312455e-01
+f = 4,1966753184042e+01 +/- 3,3307985452538e-03
+phi = 3,9757307565351e+01 +/- 9,5742884172610e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,2694880635038e+03
+R^2 = 0,9332803040301
+Angepasstes R^2 = 0,9283381043287
+RMSE (Standardabweichung) = 57,17943741857
+RSS (Summe der quadrierten Restwerte) = 179.821,8434927
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+
+</log>
